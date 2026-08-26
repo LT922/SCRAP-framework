@@ -1,0 +1,45 @@
+# This file was created Fri Jun  5 17:26:16 2026
+# Created by:
+#                       :-) GROMACS - gmx energy, 2023 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /mnt/sdb1/25-08-MD-Devid-tip3p-charmm/drugspolymers/pclabisic18/ana
+# Command line:
+#   gmx energy -f ../NPT.edr -o density.xvg
+# gmx energy is part of G R O M A C S:
+#
+# Great Red Oystrich Makes All Chemists Sane
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(kg/m^3)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Density"
+    0.000000  977.796997
+  100.000000  1022.002380
+  200.000000  1020.193359
+  300.000000  1020.646423
+  400.000000  1021.977417
+  500.000000  1020.575867
+  600.000000  1020.641174
+  700.000000  1021.533997
+  800.000000  1021.509216
+  900.000000  1020.621887
+ 1000.000000  1022.296143
+ 1100.000000  1021.950012
+ 1200.000000  1021.539368
+ 1300.000000  1021.599609
+ 1400.000000  1020.853027
+ 1500.000000  1020.612915
+ 1600.000000  1021.514221
+ 1700.000000  1020.633118
+ 1800.000000  1022.456909
+ 1900.000000  1020.861023
+ 2000.000000  1021.539856

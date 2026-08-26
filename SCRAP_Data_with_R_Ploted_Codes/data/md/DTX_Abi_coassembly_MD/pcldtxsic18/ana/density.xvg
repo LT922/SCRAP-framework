@@ -1,0 +1,45 @@
+# This file was created Fri Jun  5 15:00:33 2026
+# Created by:
+#                       :-) GROMACS - gmx energy, 2023 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /mnt/sda1/MD_divide/drugspolymers/pcldtxsic18/ana
+# Command line:
+#   gmx energy -f ../NPT.edr -o density.xvg
+# gmx energy is part of G R O M A C S:
+#
+# GRoups of Organic Molecules in ACtion for Science
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(kg/m^3)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Density"
+    0.000000  979.060181
+  100.000000  1022.890625
+  200.000000  1022.124756
+  300.000000  1022.969299
+  400.000000  1023.710327
+  500.000000  1023.164185
+  600.000000  1023.148499
+  700.000000  1022.880371
+  800.000000  1022.104797
+  900.000000  1023.534119
+ 1000.000000  1022.998474
+ 1100.000000  1023.143982
+ 1200.000000  1023.952881
+ 1300.000000  1022.973206
+ 1400.000000  1022.644165
+ 1500.000000  1023.081238
+ 1600.000000  1023.934875
+ 1700.000000  1023.350647
+ 1800.000000  1022.270813
+ 1900.000000  1022.877136
+ 2000.000000  1023.880859

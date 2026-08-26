@@ -1,0 +1,45 @@
+# This file was created Sat Jun  6 00:57:46 2026
+# Created by:
+#                       :-) GROMACS - gmx energy, 2023 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /mnt/sdb1/25-08-MD-Devid-tip3p-charmm/drugspolymers/pcldtxsic18abisic18/ana
+# Command line:
+#   gmx energy -f ../NPT.edr -o pressure.xvg
+# gmx energy is part of G R O M A C S:
+#
+# Glycine aRginine prOline Methionine Alanine Cystine Serine
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(bar)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Pressure"
+    0.000000  -684.799255
+  100.000000  -65.307854
+  200.000000  -40.340862
+  300.000000  -42.682926
+  400.000000   24.164652
+  500.000000   39.134933
+  600.000000   10.040961
+  700.000000   52.646740
+  800.000000  -65.401451
+  900.000000   54.174480
+ 1000.000000   26.354933
+ 1100.000000   -3.735475
+ 1200.000000   45.783932
+ 1300.000000   -8.550385
+ 1400.000000    4.357633
+ 1500.000000    2.723073
+ 1600.000000   13.515572
+ 1700.000000  -123.705849
+ 1800.000000   17.144266
+ 1900.000000  -143.145020
+ 2000.000000    2.534581

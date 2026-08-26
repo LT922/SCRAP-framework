@@ -1,0 +1,52 @@
+mol	residue1	residue2	order
+abi	ABI		par
+abic18	ABI	ABL	par-mod
+abic8	ABI	ABL	par-mod
+abisic18	ABI	ABL	par-mod
+ca4c18	CA4	CAL	par-mod
+cbz	CBZ		par
+cbzc18	CBL	CBZ	mod-par
+cbzc6	CTL	CTX	mod-par
+crisic18	CRI	CRL	par-mod
+dexc18	DEL	DEX	mod-par
+dexsic18	DEL	DEX	mod-par
+dox	DOX		par
+doxc18	DOL	DOX	mod-par
+doxsic18	DOL	DOX	mod-par
+dtx	DTX		par
+dtx2c16	DTL	DTX	mod-par
+dtxc6	DTL	DTX	mod-par
+dtxsic18	DTL	DTX	mod-par
+fudrc18	FUD	FUL	par-mod
+ful	FUL		par
+fulc18	FUD	FUL	par-mod
+fulsic18	FUD	FUL	par-mod
+idb	IDB		par
+idbc18	PTL	PTX	mod-par
+idbc8	IDB	IDL	par-mod
+idbsic18	PTL	PTX	mod-par
+lst	LST		par
+lstc18	LSL	LST	mod-par
+lstc8	LSL	LST	mod-par
+p2c10	PTL	PTX	mod-par
+p2c14	PTL	PTX	mod-par
+p2c6	PTL	PTX	mod-par
+p2me	PTL	PTX	mod-par
+p7c16	PTL	PTX	mod-par
+pptc18	PPL	PPT	mod-par
+pptsic18	PPL	PPT	mod-par
+ptx	PTX		par
+ptx2c18	PTL	PTX	mod-par
+ptx2ch	PTL	PTX	mod-par
+ptx2dec	PTL	PTX	mod-par
+ptx7c18	PTL	PTX	mod-par
+ptx7me	PTL	PTX	mod-par
+ptx7oley	PTL	PTX	mod-par
+ptxbr	PTL	PTX	mod-par
+ptxc8ke	PTL	PTX	mod-par
+ptxeg3	PTL	PTX	mod-par
+ptxi	PTL	PTX	mod-par
+ptxphke	PTL	PTX	mod-par
+ptxsic18	PTL	PTX	mod-par
+sn38	SN3		par
+sn38c18	SN3	SNL	par-mod

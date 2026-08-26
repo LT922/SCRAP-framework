@@ -1,0 +1,35 @@
+# This file was created Fri Jun  5 15:00:09 2026
+# Created by:
+#                       :-) GROMACS - gmx energy, 2023 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /mnt/sda1/MD_divide/drugspolymers/pcldtxsic18/ana
+# Command line:
+#   gmx energy -f ../NVT.edr -o temperature.xvg
+# gmx energy is part of G R O M A C S:
+#
+# Gromacs Runs One Microsecond At Cannonball Speeds
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(K)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Temperature"
+    0.000000  300.971069
+  100.000000  300.000671
+  200.000000  300.598877
+  300.000000  300.053223
+  400.000000  299.364532
+  500.000000  298.817322
+  600.000000  300.443573
+  700.000000  301.127075
+  800.000000  300.468475
+  900.000000  298.579437
+ 1000.000000  299.641449

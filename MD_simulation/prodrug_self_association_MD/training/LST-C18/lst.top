@@ -1,0 +1,16 @@
+#include "../../../forcefields/charmm36-jul2022.ff/forcefield.itp"
+; Most atomtypes are obatined from CGenFF forcefield and CGenFF was chosen as the primary forcefield.
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ    fudgeQQ
+     1              2              yes            1       1
+
+#include "LST_ATP.itp"
+#include "LST.itp"
+
+[ system ]
+LST
+
+[ molecules ]
+; Molecule      nmols
+LST        1

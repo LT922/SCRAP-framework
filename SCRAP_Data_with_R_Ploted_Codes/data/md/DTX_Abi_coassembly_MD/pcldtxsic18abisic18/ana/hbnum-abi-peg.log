@@ -1,0 +1,48 @@
+                       :-) GROMACS - gmx hbond, 2023 (-:
+
+Executable:   /usr/local/gromacs/bin/gmx
+Data prefix:  /usr/local/gromacs
+Working dir:  /mnt/sdb1/25-08-MD-Devid-tip3p-charmm/drugspolymers/pcldtxsic18abisic18/ana
+Command line:
+  gmx hbond -s ../MD.tpr -f ../MD_noPBC.xtc -n ../index.ndx -num hbnum-abi-peg.xvg -dt 500
+
+Reading file ../MD.tpr, VERSION 2023 (single precision)
+Group     0 (         System) has 268160 elements
+Group     1 (          Other) has 21710 elements
+Group     2 (            MEG) has   360 elements
+Group     3 (            EGO) has  9030 elements
+Group     4 (            ECC) has   750 elements
+Group     5 (            PCL) has  7560 elements
+Group     6 (            CLO) has   570 elements
+Group     7 (            DTL) has   890 elements
+Group     8 (            DTX) has  1100 elements
+Group     9 (            ABI) has   560 elements
+Group    10 (            ABL) has   890 elements
+Group    11 (          Water) has 246450 elements
+Group    12 (            SOL) has 246450 elements
+Group    13 (      non-Water) has 21710 elements
+Group    14 (        polymer) has 18270 elements
+Group    15 (       dtxsic18) has  1990 elements
+Group    16 (     othersic18) has  1450 elements
+Group    17 (           drug) has  3440 elements
+Group    18 (   polymer&drug) has 21710 elements
+Group    19 (            peg) has  9390 elements
+Group    20 (            pcl) has  8880 elements
+Select a group: Select a group: 
+-------------------------------------------------------
+Program:     gmx hbond, version 2023
+Source file: src/gromacs/gmxana/gmx_hbond.cpp (line 2739)
+
+Fatal error:
+Nothing to be done
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+Specify 2 groups to analyze:
+Selected 16: 'othersic18'
+Selected 19: 'peg'
+Checking for overlap in atoms between othersic18 and peg
+Calculating hydrogen bonds between othersic18 (1450 atoms) and peg (9390 atoms)
+Found 0 donors and 1420 acceptors
+No Donors found

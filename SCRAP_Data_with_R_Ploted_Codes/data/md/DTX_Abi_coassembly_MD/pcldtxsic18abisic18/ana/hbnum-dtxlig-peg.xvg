@@ -1,0 +1,7 @@
+# hbnum-dtxlig-peg.xvg
+# gmx hbond could not be calculated for groups 7 and 19
+# Reason: no donor/acceptor pair exists in the selected groups.
+@    title "Hydrogen bonds"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Number"
+0 0

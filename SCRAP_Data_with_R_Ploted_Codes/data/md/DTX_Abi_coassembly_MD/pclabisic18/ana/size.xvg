@@ -1,0 +1,22 @@
+# This file was created Fri Jun  5 18:07:05 2026
+# Created by:
+#                      :-) GROMACS - gmx cluster, 2023 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /mnt/sdb1/25-08-MD-Devid-tip3p-charmm/drugspolymers/pclabisic18/ana
+# Command line:
+#   gmx cluster -f ../MD_noPBC.xtc -s ../MD.tpr -cutoff 2 -o cluster.xpm -g cluster.log -sz size.xvg -ntr ntr.xvg -clid nclid.xvg -cl clusters.pdb -tu ps -dt 500
+# gmx cluster is part of G R O M A C S:
+#
+# GROtesk MACabre and Sinister
+#
+@    title "Cluster Sizes"
+@    xaxis  label "Cluster #"
+@    yaxis  label "# Structures"
+@TYPE xy
+@g0 type bar
+       1      397
+       2        1
+       3        1
+       4        2

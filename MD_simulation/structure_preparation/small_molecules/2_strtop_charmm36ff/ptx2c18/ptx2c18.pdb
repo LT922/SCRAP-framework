@@ -1,0 +1,358 @@
+REMARK   This PDB file was created by CS Chem3D.
+SEQRES   1 A    2  PTL PTX
+HETATM    1  C   PTL A   1      -1.179  12.524  13.436                      C 
+HETATM    2  C   PTL A   1       0.071  12.015  12.706                      C 
+HETATM    3  C   PTL A   1      -0.291  11.120  11.510                      C 
+HETATM    4  C   PTL A   1       0.958  10.607  10.776                      C 
+HETATM    5  C   PTL A   1       0.595   9.713   9.579                      C 
+HETATM    6  C   PTL A   1       1.844   9.200   8.843                      C 
+HETATM    7  C   PTL A   1       1.478   8.309   7.645                      C 
+HETATM    8  C   PTL A   1       2.725   7.794   6.907                      C 
+HETATM    9  C   PTL A   1       2.356   6.906   5.707                      C 
+HETATM   10  C   PTL A   1       3.599   6.388   4.966                      C 
+HETATM   11  C   PTL A   1       3.223   5.503   3.767                      C 
+HETATM   12  C   PTL A   1       4.462   4.977   3.023                      C 
+HETATM   13  C   PTL A   1       4.077   4.092   1.827                      C 
+HETATM   14  C   PTL A   1       5.310   3.553   1.082                      C 
+HETATM   15  C   PTL A   1       4.913   2.665  -0.108                      C 
+HETATM   16  C   PTL A   1       6.137   2.106  -0.850                      C 
+HETATM   17  C   PTL A   1       5.727   1.205  -2.026                      C 
+HETATM   18  C   PTL A   1       6.937   0.616  -2.753                      C 
+HETATM   19  C   PTL A   1       7.427  -1.084  -4.367                      C 
+HETATM   20  C   PTL A   1       6.719  -1.743  -5.552                      C 
+HETATM   21  C   PTL A   1       8.663  -0.332  -4.846                      C 
+HETATM   22  H   PTL A   1      -0.042  10.290   8.867                      H 
+HETATM   23  O   PTL A   1       6.471  -0.215  -3.789                      O 
+HETATM   24  H   PTL A   1      -0.902  13.172  14.300                      H 
+HETATM   25  H   PTL A   1      -1.825  13.125  12.756                      H 
+HETATM   26  H   PTL A   1      -1.788  11.678  13.829                      H 
+HETATM   27  H   PTL A   1       0.706  11.443  13.423                      H 
+HETATM   28  H   PTL A   1       0.670  12.888  12.352                      H 
+HETATM   29  H   PTL A   1      -0.929  11.696  10.798                      H 
+HETATM   30  H   PTL A   1      -0.892  10.250  11.869                      H 
+HETATM   31  H   PTL A   1       1.595  10.031  11.488                      H 
+HETATM   32  H   PTL A   1       1.560  11.477  10.418                      H 
+HETATM   33  H   PTL A   1       4.206   7.255   4.610                      H 
+HETATM   34  H   PTL A   1      -0.006   8.844   9.936                      H 
+HETATM   35  H   PTL A   1       2.480   8.621   9.554                      H 
+HETATM   36  H   PTL A   1       2.446  10.069   8.487                      H 
+HETATM   37  H   PTL A   1       0.842   8.888   6.934                      H 
+HETATM   38  H   PTL A   1       0.875   7.440   8.001                      H 
+HETATM   39  H   PTL A   1       3.361   7.213   7.616                      H 
+HETATM   40  H   PTL A   1       3.329   8.663   6.551                      H 
+HETATM   41  H   PTL A   1       1.720   7.489   4.999                      H 
+HETATM   42  H   PTL A   1       1.750   6.039   6.063                      H 
+HETATM   43  H   PTL A   1       4.234   5.803   5.674                      H 
+HETATM   44  H   PTL A   1       2.590   6.089   3.060                      H 
+HETATM   45  H   PTL A   1       2.613   4.639   4.124                      H 
+HETATM   46  H   PTL A   1       5.095   4.390   3.730                      H 
+HETATM   47  H   PTL A   1       5.073   5.839   2.665                      H 
+HETATM   48  H   PTL A   1       3.447   4.682   1.119                      H 
+HETATM   49  H   PTL A   1       3.461   3.234   2.187                      H 
+HETATM   50  H   PTL A   1       5.940   2.964   1.790                      H 
+HETATM   51  H   PTL A   1       5.926   4.409   0.717                      H 
+HETATM   52  H   PTL A   1       4.288   3.256  -0.819                      H 
+HETATM   53  H   PTL A   1       4.287   1.816   0.260                      H 
+HETATM   54  H   PTL A   1       6.765   1.519  -0.137                      H 
+HETATM   55  H   PTL A   1       6.761   2.950  -1.229                      H 
+HETATM   56  H   PTL A   1       5.109   1.791  -2.749                      H 
+HETATM   57  H   PTL A   1       5.090   0.371  -1.644                      H 
+HETATM   58  H   PTL A   1       7.550   0.036  -2.027                      H 
+HETATM   59  H   PTL A   1       7.547   1.443  -3.183                      H 
+HETATM   60  H   PTL A   1       7.383  -2.421  -6.131                      H 
+HETATM   61  H   PTL A   1       6.349  -0.975  -6.269                      H 
+HETATM   62  H   PTL A   1       5.838  -2.338  -5.220                      H 
+HETATM   63  H   PTL A   1       8.372   0.490  -5.539                      H 
+HETATM   64  H   PTL A   1       9.249   0.130  -4.024                      H 
+HETATM   65  H   PTL A   1       9.358  -0.989  -5.414                      H 
+HETATM   66  N   PTX A   2       9.276  -5.335  -3.195                      N 
+HETATM   67  C   PTX A   2       8.713  -2.965  -3.559                      C 
+HETATM   68  C   PTX A   2      10.067  -2.438  -3.059                      C 
+HETATM   69  C   PTX A   2      12.416  -2.845  -3.391                      C 
+HETATM   70  C   PTX A   2      12.819  -2.629  -1.920                      C 
+HETATM   71  C   PTX A   2      14.257  -3.101  -1.641                      C 
+HETATM   72  C   PTX A   2      15.234  -2.112  -2.332                      C 
+HETATM   73  C   PTX A   2      14.568   0.250  -2.388                      C 
+HETATM   74  C   PTX A   2      14.436   1.436  -1.718                      C 
+HETATM   75  C   PTX A   2      13.936   2.539  -2.311                      C 
+HETATM   76  C   PTX A   2      13.818   3.692  -1.633                      C 
+HETATM   77  C   PTX A   2      14.200   3.765  -0.350                      C 
+HETATM   78  C   PTX A   2      14.699   2.676   0.252                      C 
+HETATM   79  C   PTX A   2      14.814   1.524  -0.428                      C 
+HETATM   80  C   PTX A   2      16.733  -2.503  -2.395                      C 
+HETATM   81  C   PTX A   2      17.236  -3.056  -3.779                      C 
+HETATM   82  C   PTX A   2      16.635  -2.362  -5.024                      C 
+HETATM   83  C   PTX A   2      16.874  -4.574  -3.835                      C 
+HETATM   84  C   PTX A   2      15.512  -5.140  -4.323                      C 
+HETATM   85  C   PTX A   2      16.161  -5.925  -6.509                      C 
+HETATM   86  C   PTX A   2      15.922  -5.612  -7.973                      C 
+HETATM   87  C   PTX A   2      14.332  -4.487  -3.606                      C 
+HETATM   88  C   PTX A   2      13.328  -3.785  -4.191                      C 
+HETATM   89  C   PTX A   2      13.047  -3.726  -5.680                      C 
+HETATM   90  C   PTX A   2      14.307  -4.588  -2.081                      C 
+HETATM   91  C   PTX A   2      13.028  -5.418  -1.737                      C 
+HETATM   92  C   PTX A   2      15.362  -5.465  -1.352                      C 
+HETATM   93  C   PTX A   2      18.783  -2.930  -3.915                      C 
+HETATM   94  C   PTX A   2      19.546  -2.956  -2.595                      C 
+HETATM   95  C   PTX A   2      19.151  -1.821  -1.667                      C 
+HETATM   96  C   PTX A   2      18.009  -0.225  -2.173                      C 
+HETATM   97  C   PTX A   2      17.643  -1.580  -1.560                      C 
+HETATM   98  C   PTX A   2      17.721  -0.800   0.768                      C 
+HETATM   99  C   PTX A   2      16.971  -1.099   2.054                      C 
+HETATM  100  C   PTX A   2       8.310  -4.281  -2.854                      C 
+HETATM  101  C   PTX A   2       9.425  -6.581  -2.644                      C 
+HETATM  102  C   PTX A   2       8.612  -7.141  -1.700                      C 
+HETATM  103  C   PTX A   2       9.127  -8.033  -0.827                      C 
+HETATM  104  C   PTX A   2       8.374  -8.601   0.128                      C 
+HETATM  105  C   PTX A   2       7.073  -8.299   0.229                      C 
+HETATM  106  C   PTX A   2       6.535  -7.436  -0.643                      C 
+HETATM  107  C   PTX A   2       7.297  -6.872  -1.594                      C 
+HETATM  108  C   PTX A   2       8.208  -4.039  -1.358                      C 
+HETATM  109  C   PTX A   2       9.267  -4.175  -0.540                      C 
+HETATM  110  C   PTX A   2       9.163  -3.951   0.779                      C 
+HETATM  111  C   PTX A   2       7.987  -3.580   1.305                      C 
+HETATM  112  C   PTX A   2       6.922  -3.433   0.504                      C 
+HETATM  113  C   PTX A   2       7.036  -3.660  -0.813                      C 
+HETATM  114  H   PTX A   2      12.532  -1.856  -3.902                      H 
+HETATM  115  O   PTX A   2       7.659  -2.046  -3.362                      O 
+HETATM  116  O   PTX A   2      10.219  -1.462  -2.359                      O 
+HETATM  117  O   PTX A   2      11.067  -3.215  -3.561                      O 
+HETATM  118  O   PTX A   2      14.493  -3.006  -0.262                      O 
+HETATM  119  O   PTX A   2      15.085  -0.849  -1.735                      O 
+HETATM  120  O   PTX A   2      14.230   0.163  -3.553                      O 
+HETATM  121  O   PTX A   2      17.687  -5.382  -3.434                      O 
+HETATM  122  O   PTX A   2      15.433  -5.072  -5.736                      O 
+HETATM  123  O   PTX A   2      16.892  -6.796  -6.098                      O 
+HETATM  124  O   PTX A   2      19.142  -1.747  -4.597                      O 
+HETATM  125  O   PTX A   2      19.387  -0.550  -2.228                      O 
+HETATM  126  O   PTX A   2      17.215  -1.575  -0.230                      O 
+HETATM  127  O   PTX A   2      18.620   0.004   0.684                      O 
+HETATM  128  O   PTX A   2      10.469  -7.111  -2.951                      O 
+HETATM  129  H   PTX A   2       8.809  -3.183  -4.647                      H 
+HETATM  130  H   PTX A   2      16.513  -6.295  -8.624                      H 
+HETATM  131  H   PTX A   2      12.707  -1.560  -1.629                      H 
+HETATM  132  H   PTX A   2      12.116  -3.140  -1.226                      H 
+HETATM  133  H   PTX A   2      14.420  -2.083   0.000                      H 
+HETATM  134  H   PTX A   2      14.898  -2.031  -3.375                      H 
+HETATM  135  H   PTX A   2      13.606   2.542  -3.363                      H 
+HETATM  136  H   PTX A   2      13.407   4.586  -2.132                      H 
+HETATM  137  H   PTX A   2      14.104   4.712   0.206                      H 
+HETATM  138  H   PTX A   2      15.015   2.729   1.307                      H 
+HETATM  139  H   PTX A   2      15.231   0.661   0.117                      H 
+HETATM  140  H   PTX A   2      16.832  -3.376  -1.719                      H 
+HETATM  141  H   PTX A   2      16.705  -1.254  -4.964                      H 
+HETATM  142  H   PTX A   2      17.144  -2.694  -5.957                      H 
+HETATM  143  H   PTX A   2      15.565  -2.572  -5.198                      H 
+HETATM  144  H   PTX A   2      15.439  -6.219  -4.049                      H 
+HETATM  145  H   PTX A   2      16.228  -4.566  -8.199                      H 
+HETATM  146  H   PTX A   2      14.844  -5.739  -8.225                      H 
+HETATM  147  H   PTX A   2      13.748  -3.052  -6.218                      H 
+HETATM  148  H   PTX A   2      13.047  -4.739  -6.138                      H 
+HETATM  149  H   PTX A   2      12.027  -3.342  -5.897                      H 
+HETATM  150  H   PTX A   2      12.804  -5.405  -0.646                      H 
+HETATM  151  H   PTX A   2      12.106  -5.103  -2.261                      H 
+HETATM  152  H   PTX A   2      13.135  -6.484  -2.042                      H 
+HETATM  153  H   PTX A   2      15.142  -5.528  -0.262                      H 
+HETATM  154  H   PTX A   2      15.375  -6.513  -1.729                      H 
+HETATM  155  H   PTX A   2      16.415  -5.149  -1.386                      H 
+HETATM  156  H   PTX A   2      19.174  -3.743  -4.574                      H 
+HETATM  157  H   PTX A   2      19.929  -1.359  -4.210                      H 
+HETATM  158  H   PTX A   2      19.366  -3.918  -2.062                      H 
+HETATM  159  H   PTX A   2      20.644  -2.904  -2.788                      H 
+HETATM  160  H   PTX A   2      19.686  -1.896  -0.693                      H 
+HETATM  161  H   PTX A   2      17.830   0.675  -1.551                      H 
+HETATM  162  H   PTX A   2      17.611  -0.073  -3.198                      H 
+HETATM  163  H   PTX A   2      15.875  -0.963   1.911                      H 
+HETATM  164  H   PTX A   2      17.166  -2.147   2.376                      H 
+HETATM  165  H   PTX A   2      17.298  -0.418   2.871                      H 
+HETATM  166  H   PTX A   2       7.329  -4.563  -3.303                      H 
+HETATM  167  H   PTX A   2      10.020  -5.099  -3.853                      H 
+HETATM  168  H   PTX A   2      10.194  -8.315  -0.843                      H 
+HETATM  169  H   PTX A   2       8.825  -9.316   0.836                      H 
+HETATM  170  H   PTX A   2       6.449  -8.766   1.010                      H 
+HETATM  171  H   PTX A   2       5.458  -7.201  -0.585                      H 
+HETATM  172  H   PTX A   2       6.773  -6.218  -2.301                      H 
+HETATM  173  H   PTX A   2      10.245  -4.476  -0.943                      H 
+HETATM  174  H   PTX A   2      10.046  -4.071   1.430                      H 
+HETATM  175  H   PTX A   2       7.897  -3.394   2.388                      H 
+HETATM  176  H   PTX A   2       5.951  -3.125   0.928                      H 
+HETATM  177  H   PTX A   2       6.148  -3.532  -1.454                      H 
+TER
+CONECT    1    2   24   25   26
+CONECT    2    1    3   27   28
+CONECT    3    2    4   29   30
+CONECT    4    3    5   31   32
+CONECT    5    4    6   22   34
+CONECT    6    5    7   35   36
+CONECT    7    6    8   37   38
+CONECT    8    7    9   39   40
+CONECT    9    8   10   41   42
+CONECT   10    9   11   43   33
+CONECT   11   10   12   44   45
+CONECT   12   11   13   46   47
+CONECT   13   12   14   48   49
+CONECT   14   13   15   50   51
+CONECT   15   14   16   52   53
+CONECT   16   15   17   54   55
+CONECT   17   16   18   56   57
+CONECT   18   17   23   58   59
+CONECT   19   20   21   23
+CONECT   20   19   60   61   62
+CONECT   21   19   65   63   64
+CONECT   22    5
+CONECT   23   18   19
+CONECT   24    1
+CONECT   25    1
+CONECT   26    1
+CONECT   27    2
+CONECT   28    2
+CONECT   29    3
+CONECT   30    3
+CONECT   31    4
+CONECT   32    4
+CONECT   33   10
+CONECT   34    5
+CONECT   35    6
+CONECT   36    6
+CONECT   37    7
+CONECT   38    7
+CONECT   39    8
+CONECT   40    8
+CONECT   41    9
+CONECT   42    9
+CONECT   43   10
+CONECT   44   11
+CONECT   45   11
+CONECT   46   12
+CONECT   47   12
+CONECT   48   13
+CONECT   49   13
+CONECT   50   14
+CONECT   51   14
+CONECT   52   15
+CONECT   53   15
+CONECT   54   16
+CONECT   55   16
+CONECT   56   17
+CONECT   57   17
+CONECT   58   18
+CONECT   59   18
+CONECT   60   20
+CONECT   61   20
+CONECT   62   20
+CONECT   63   21
+CONECT   64   21
+CONECT   65   21
+CONECT   66  101  100  167
+CONECT   67   68  100  129  115
+CONECT   68   67  116  117
+CONECT   69   70   88  114  117
+CONECT   70   69   71  131  132
+CONECT   71   70   72   90  118
+CONECT   72   71   80  119  134
+CONECT   73   74  120  119
+CONECT   74   73   75   79
+CONECT   75   74   76  135
+CONECT   76   75   77  136
+CONECT   77   76   78  137
+CONECT   78   77   79  138
+CONECT   79   74   78  139
+CONECT   80   72   81   97  140
+CONECT   81   80   82   83   93
+CONECT   82   81  141  142  143
+CONECT   83   81   84  121
+CONECT   84   83   87  122  144
+CONECT   85   86  123  122
+CONECT   86   85  145  130  146
+CONECT   87   84   88   90
+CONECT   88   69   87   89
+CONECT   89   88  147  148  149
+CONECT   90   71   87   91   92
+CONECT   91   90  150  151  152
+CONECT   92   90  153  154  155
+CONECT   93   81   94  124  156
+CONECT   94   93   95  158  159
+CONECT   95   94   97  125  160
+CONECT   96   97  161  162  125
+CONECT   97   80   95   96  126
+CONECT   98   99  127  126
+CONECT   99   98  163  164  165
+CONECT  100   66   67  108  166
+CONECT  101   66  102  128
+CONECT  102  101  103  107
+CONECT  103  102  104  168
+CONECT  104  103  105  169
+CONECT  105  104  106  170
+CONECT  106  105  107  171
+CONECT  107  102  106  172
+CONECT  108  100  109  113
+CONECT  109  108  110  173
+CONECT  110  109  111  174
+CONECT  111  110  112  175
+CONECT  112  111  113  176
+CONECT  113  108  112  177
+CONECT  114   69
+CONECT  115   67
+CONECT  116   68
+CONECT  117   68   69
+CONECT  118   71  133
+CONECT  119   72   73
+CONECT  120   73
+CONECT  121   83
+CONECT  122   84   85
+CONECT  123   85
+CONECT  124  157   93
+CONECT  125   95   96
+CONECT  126   97   98
+CONECT  127   98
+CONECT  128  101
+CONECT  129   67
+CONECT  130   86
+CONECT  131   70
+CONECT  132   70
+CONECT  133  118
+CONECT  134   72
+CONECT  135   75
+CONECT  136   76
+CONECT  137   77
+CONECT  138   78
+CONECT  139   79
+CONECT  140   80
+CONECT  141   82
+CONECT  142   82
+CONECT  143   82
+CONECT  144   84
+CONECT  145   86
+CONECT  146   86
+CONECT  147   89
+CONECT  148   89
+CONECT  149   89
+CONECT  150   91
+CONECT  151   91
+CONECT  152   91
+CONECT  153   92
+CONECT  154   92
+CONECT  155   92
+CONECT  156   93
+CONECT  157  124
+CONECT  158   94
+CONECT  159   94
+CONECT  160   95
+CONECT  161   96
+CONECT  162   96
+CONECT  163   99
+CONECT  164   99
+CONECT  165   99
+CONECT  166  100
+CONECT  167   66
+CONECT  168  103
+CONECT  169  104
+CONECT  170  105
+CONECT  171  106
+CONECT  172  107
+CONECT  173  109
+CONECT  174  110
+CONECT  175  111
+CONECT  176  112
+CONECT  177  113
+END

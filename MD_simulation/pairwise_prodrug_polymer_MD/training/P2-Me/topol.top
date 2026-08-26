@@ -1,0 +1,28 @@
+#include "../../../forcefields/charmm36-jul2022.ff/forcefield.itp"
+
+#include "mpeg2kpcl2k.prm"
+#include "p2me.prm"
+
+#include "mpeg2kpcl2k.itp"
+#include "p2me.itp"
+
+#include "../../../forcefields/charmm36-jul2022.ff/tip3p.itp"
+#ifdef POSRES_WATER
+; Position restraint for each water oxygen
+[ position_restraints ]
+;  i funct		 fcx		fcy		   fcz
+   1	1		1000	   1000		  1000
+#endif
+
+; Include topology for ions
+;#include "../../../forcefields/charmm36-jul2022.ff/ions.itp"
+
+[ system ]
+; Name
+pclp2me in water
+
+[ molecules ]
+;Compound        #mols
+ECL             1
+PTX               1
+

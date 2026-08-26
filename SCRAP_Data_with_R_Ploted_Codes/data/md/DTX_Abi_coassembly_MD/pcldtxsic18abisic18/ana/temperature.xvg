@@ -1,0 +1,35 @@
+# This file was created Sat Jun  6 00:57:44 2026
+# Created by:
+#                       :-) GROMACS - gmx energy, 2023 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /mnt/sdb1/25-08-MD-Devid-tip3p-charmm/drugspolymers/pcldtxsic18abisic18/ana
+# Command line:
+#   gmx energy -f ../NVT.edr -o temperature.xvg
+# gmx energy is part of G R O M A C S:
+#
+# Georgetown Riga Oslo Madrid Amsterdam Chisinau Stockholm
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(K)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Temperature"
+    0.000000  299.983093
+  100.000000  299.660278
+  200.000000  299.223724
+  300.000000  299.368866
+  400.000000  299.567719
+  500.000000  299.216644
+  600.000000  301.121216
+  700.000000  300.366760
+  800.000000  299.203918
+  900.000000  299.796417
+ 1000.000000  299.360596

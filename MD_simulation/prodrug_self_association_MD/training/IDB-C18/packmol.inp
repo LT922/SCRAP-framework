@@ -1,0 +1,31 @@
+#
+# Double layered vesicle with water inside and outside
+#
+
+tolerance 2.0 
+add_box_sides 2.0
+
+output drug2.pdb
+
+#structure mpeg2kpcl2knpt4ns.pdb
+#number 1
+#  atoms 504
+#    inside sphere 0. 0. 0. 20. 
+#  end atoms
+#  atoms 5
+#    outside sphere 0. 0. 0. 80.
+#  end atoms
+#inside box 0. 0. 0. 80. 80. 80.
+#end structure 
+
+structure idbc18.pdb
+  number 2
+#  atoms 1
+#    inside sphere 0. 0. 0. 15. 
+#  end atoms
+#  atoms 73
+#    outside sphere 0. 0. 0. 30.
+#  end atoms
+inside box 0. 0. 0. 55. 55. 55.
+end structure
+

@@ -1,0 +1,44 @@
+                       :-) GROMACS - gmx hbond, 2023 (-:
+
+Executable:   /usr/local/gromacs/bin/gmx
+Data prefix:  /usr/local/gromacs
+Working dir:  /mnt/sdb1/25-08-MD-Devid-tip3p-charmm/drugspolymers/pcldtxsic18abisic18/ana
+Command line:
+  gmx hbond -s ../MD.tpr -f ../MD_noPBC.xtc -n ../index.ndx -num hbnum-abipar-polymer.xvg -dt 500
+
+Reading file ../MD.tpr, VERSION 2023 (single precision)
+Group     0 (         System) has 268160 elements
+Group     1 (          Other) has 21710 elements
+Group     2 (            MEG) has   360 elements
+Group     3 (            EGO) has  9030 elements
+Group     4 (            ECC) has   750 elements
+Group     5 (            PCL) has  7560 elements
+Group     6 (            CLO) has   570 elements
+Group     7 (            DTL) has   890 elements
+Group     8 (            DTX) has  1100 elements
+Group     9 (            ABI) has   560 elements
+Group    10 (            ABL) has   890 elements
+Group    11 (          Water) has 246450 elements
+Group    12 (            SOL) has 246450 elements
+Group    13 (      non-Water) has 21710 elements
+Group    14 (        polymer) has 18270 elements
+Group    15 (       dtxsic18) has  1990 elements
+Group    16 (     othersic18) has  1450 elements
+Group    17 (           drug) has  3440 elements
+Group    18 (   polymer&drug) has 21710 elements
+Group    19 (            peg) has  9390 elements
+Group    20 (            pcl) has  8880 elements
+Select a group: Select a group: Reading frame       0 time    0.000   Specify 2 groups to analyze:
+Selected 9: 'ABI'
+Selected 14: 'polymer'
+Checking for overlap in atoms between ABI and polymer
+Calculating hydrogen bonds between ABI (560 atoms) and polymer (18270 atoms)
+Found 30 donors and 2360 acceptors
+
+Will do grid-search on 32x32x32 grid, rcut=0.34999999
+Frame loop parallelized with OpenMP using 2 threads.
+Skipping frame      1 time   10.000   Skipping frame      2 time   20.000   Skipping frame      3 time   30.000   Skipping frame      4 time   40.000   Skipping frame      5 time   50.000   Skipping frame      6 time   60.000   Skipping frame      7 time   70.000   Skipping frame      8 time   80.000   Skipping frame      9 time   90.000   Skipping frame     10 time  100.000   Skipping frame     11 time  110.000   Skipping frame     12 time  120.000   Skipping frame     13 time  130.000   Skipping frame     14 time  140.000   Skipping frame     15 time  150.000   Skipping frame     16 time  160.000   Skipping frame     17 time  170.000   Skipping frame     18 time  180.000   Skipping frame     19 time  190.000   Skipping frame     20 time  200.000   Skipping frame     30 time  300.000   Skipping frame     40 time  400.000   Reading frame      50 time  500.000   Skipping frame     60 time  600.000   Skipping frame     70 time  700.000   Skipping frame     80 time  800.000   Skipping frame     90 time  900.000   Reading frame     100 time 1000.000   Skipping frame    110 time 1100.000   Skipping frame    120 time 1200.000   Skipping frame    130 time 1300.000   Skipping frame    140 time 1400.000   Reading frame     150 time 1500.000   Skipping frame    160 time 1600.000   Skipping frame    170 time 1700.000   Skipping frame    180 time 1800.000   Skipping frame    190 time 1900.000   Reading frame     200 time 2000.000   Reading frame     300 time 3000.000   Reading frame     400 time 4000.000   Reading frame     500 time 5000.000   Reading frame     600 time 6000.000   Reading frame     700 time 7000.000   Reading frame     800 time 8000.000   Reading frame     900 time 9000.000   Reading frame    1000 time 10000.000   Reading frame    1100 time 11000.000   Reading frame    1200 time 12000.000   Reading frame    1300 time 13000.000   Reading frame    1400 time 14000.000   Reading frame    1500 time 15000.000   Reading frame    1600 time 16000.000   Reading frame    1700 time 17000.000   Reading frame    1800 time 18000.000   Reading frame    1900 time 19000.000   Reading frame    2000 time 20000.000   Reading frame    3000 time 30000.000   Reading frame    4000 time 40000.000   Reading frame    5000 time 50000.000   Reading frame    6000 time 60000.000   Reading frame    7000 time 70000.000   Reading frame    8000 time 80000.000   Reading frame    9000 time 90000.000   Reading frame   10000 time 100000.000   Reading frame   11000 time 110000.000   Reading frame   12000 time 120000.000   Reading frame   13000 time 130000.000   Reading frame   14000 time 140000.000   Reading frame   15000 time 150000.000   Reading frame   16000 time 160000.000   Reading frame   17000 time 170000.000   Reading frame   18000 time 180000.000   Reading frame   19000 time 190000.000   Reading frame   20000 time 200000.000   Last frame      20000 time 200000.000   
+
+GROMACS reminds you: "I removed all the lambda defaults so that users have to think!" (Berk Hess)
+
+Average number of hbonds per timeframe 0.030 out of 35400 possible

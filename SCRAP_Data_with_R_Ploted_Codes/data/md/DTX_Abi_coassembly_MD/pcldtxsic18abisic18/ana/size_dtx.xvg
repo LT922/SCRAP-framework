@@ -1,0 +1,19 @@
+# This file was created Sat Jun  6 15:14:51 2026
+# Created by:
+#                      :-) GROMACS - gmx cluster, 2023 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /mnt/sdb1/25-08-MD-Devid-tip3p-charmm/drugspolymers/pcldtxsic18abisic18/ana
+# Command line:
+#   gmx cluster -f ../MD_noPBC.xtc -s ../MD.tpr -n ../index.ndx -cutoff 2 -o cluster_dtx.xpm -g cluster_dtx.log -sz size_dtx.xvg -ntr ntr_dtx.xvg -clid nclid_dtx.xvg -cl clusters_dtx.pdb -tu ps -dt 500
+# gmx cluster is part of G R O M A C S:
+#
+# Gallium Rubidium Oxygen Manganese Argon Carbon Silicon
+#
+@    title "Cluster Sizes"
+@    xaxis  label "Cluster #"
+@    yaxis  label "# Structures"
+@TYPE xy
+@g0 type bar
+       1      401

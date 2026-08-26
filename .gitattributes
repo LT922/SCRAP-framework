@@ -1,0 +1,20 @@
+* text=auto
+
+*.sh text eol=lf
+*.md text eol=lf
+*.mdp text eol=lf
+*.top text eol=lf
+*.itp text eol=lf
+*.prm text eol=lf
+*.str text eol=lf
+*.inp text eol=lf
+*.R text eol=lf
+*.csv text eol=lf
+*.tsv text eol=lf
+
+*.xlsx binary
+*.xls binary
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary

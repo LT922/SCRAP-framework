@@ -1,0 +1,45 @@
+# This file was created Fri Jun  5 17:26:16 2026
+# Created by:
+#                       :-) GROMACS - gmx energy, 2023 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /mnt/sdb1/25-08-MD-Devid-tip3p-charmm/drugspolymers/pclabisic18/ana
+# Command line:
+#   gmx energy -f ../NPT.edr -o pressure.xvg
+# gmx energy is part of G R O M A C S:
+#
+# Great Red Oystrich Makes All Chemists Sane
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(bar)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Pressure"
+    0.000000  -705.742432
+  100.000000   -7.654109
+  200.000000  -30.831705
+  300.000000   23.610453
+  400.000000  -35.026096
+  500.000000   14.613444
+  600.000000  -48.104534
+  700.000000  -92.992836
+  800.000000  -42.727966
+  900.000000    6.770704
+ 1000.000000  100.427887
+ 1100.000000   75.705597
+ 1200.000000  -83.034538
+ 1300.000000   32.912460
+ 1400.000000  -67.302803
+ 1500.000000  -20.481819
+ 1600.000000   78.544273
+ 1700.000000  -67.209610
+ 1800.000000   66.664230
+ 1900.000000   26.915146
+ 2000.000000  -37.160339

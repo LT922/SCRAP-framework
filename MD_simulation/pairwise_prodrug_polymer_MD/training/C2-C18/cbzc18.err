@@ -1,0 +1,894 @@
+CHARMM General Force Field (CGenFF) program version 4.0
+released June 2024
+Copyright (C) 2020 SilcBio LLC
+and University of Maryland, School of Pharmacy. All Rights Reserved.
+
+Licensed to:
+cgenff server
+serverncgenff
+
+License expires: Tue Dec 31 00:00:00 2030
+
+readpar debug: read 683 bonds, 2501 angles, 7460 dihedrals, 203 impropers
+               and 375437 characters worth of comments.
+readmol2 warning: renaming non-unique atom C to C1 .
+readmol2 warning: renaming non-unique atom C to C2 .
+readmol2 warning: renaming non-unique atom C to C3 .
+readmol2 warning: renaming non-unique atom C to C4 .
+readmol2 warning: renaming non-unique atom C to C5 .
+readmol2 warning: renaming non-unique atom C to C6 .
+readmol2 warning: renaming non-unique atom C to C7 .
+readmol2 warning: renaming non-unique atom C to C8 .
+readmol2 warning: renaming non-unique atom C to C9 .
+readmol2 warning: renaming non-unique atom C to C10 .
+readmol2 warning: renaming non-unique atom C to C11 .
+readmol2 warning: renaming non-unique atom C to C12 .
+readmol2 warning: renaming non-unique atom C to C13 .
+readmol2 warning: renaming non-unique atom C to C14 .
+readmol2 warning: renaming non-unique atom C to C15 .
+readmol2 warning: renaming non-unique atom C to C16 .
+readmol2 warning: renaming non-unique atom C to C17 .
+readmol2 warning: renaming non-unique atom C to C18 .
+readmol2 warning: renaming non-unique atom C to C19 .
+readmol2 warning: renaming non-unique atom C to C20 .
+readmol2 warning: renaming non-unique atom C to C21 .
+readmol2 warning: renaming non-unique atom C to C22 .
+readmol2 warning: renaming non-unique atom C to C23 .
+readmol2 warning: renaming non-unique atom C to C24 .
+readmol2 warning: renaming non-unique atom C to C25 .
+readmol2 warning: renaming non-unique atom C to C26 .
+readmol2 warning: renaming non-unique atom C to C27 .
+readmol2 warning: renaming non-unique atom C to C28 .
+readmol2 warning: renaming non-unique atom C to C29 .
+readmol2 warning: renaming non-unique atom C to C30 .
+readmol2 warning: renaming non-unique atom C to C31 .
+readmol2 warning: renaming non-unique atom C to C32 .
+readmol2 warning: renaming non-unique atom C to C33 .
+readmol2 warning: renaming non-unique atom C to C34 .
+readmol2 warning: renaming non-unique atom C to C35 .
+readmol2 warning: renaming non-unique atom C to C36 .
+readmol2 warning: renaming non-unique atom C to C37 .
+readmol2 warning: renaming non-unique atom C to C38 .
+readmol2 warning: renaming non-unique atom C to C39 .
+readmol2 warning: renaming non-unique atom C to C40 .
+readmol2 warning: renaming non-unique atom C to C41 .
+readmol2 warning: renaming non-unique atom C to C42 .
+readmol2 warning: renaming non-unique atom C to C43 .
+readmol2 warning: renaming non-unique atom C to C44 .
+readmol2 warning: renaming non-unique atom C to C45 .
+readmol2 warning: renaming non-unique atom C to C46 .
+readmol2 warning: renaming non-unique atom C to C47 .
+readmol2 warning: renaming non-unique atom C to C48 .
+readmol2 warning: renaming non-unique atom C to C49 .
+readmol2 warning: renaming non-unique atom C to C50 .
+readmol2 warning: renaming non-unique atom C to C51 .
+readmol2 warning: renaming non-unique atom C to C52 .
+readmol2 warning: renaming non-unique atom C to C53 .
+readmol2 warning: renaming non-unique atom C to C54 .
+readmol2 warning: renaming non-unique atom C to C55 .
+readmol2 warning: renaming non-unique atom C to C56 .
+readmol2 warning: renaming non-unique atom C to C57 .
+readmol2 warning: renaming non-unique atom C to C58 .
+readmol2 warning: renaming non-unique atom C to C59 .
+readmol2 warning: renaming non-unique atom C to C60 .
+readmol2 warning: renaming non-unique atom C to C61 .
+readmol2 warning: renaming non-unique atom C to C62 .
+readmol2 warning: renaming non-unique atom C to C63 .
+readmol2 warning: renaming non-unique atom C to C64 .
+readmol2 warning: renaming non-unique atom C to C65 .
+readmol2 warning: renaming non-unique atom C to C66 .
+readmol2 warning: renaming non-unique atom H to H1 .
+readmol2 warning: renaming non-unique atom H to H2 .
+readmol2 warning: renaming non-unique atom H to H3 .
+readmol2 warning: renaming non-unique atom H to H4 .
+readmol2 warning: renaming non-unique atom H to H5 .
+readmol2 warning: renaming non-unique atom H to H6 .
+readmol2 warning: renaming non-unique atom H to H7 .
+readmol2 warning: renaming non-unique atom H to H8 .
+readmol2 warning: renaming non-unique atom H to H9 .
+readmol2 warning: renaming non-unique atom H to H10 .
+readmol2 warning: renaming non-unique atom H to H11 .
+readmol2 warning: renaming non-unique atom H to H12 .
+readmol2 warning: renaming non-unique atom H to H13 .
+readmol2 warning: renaming non-unique atom H to H14 .
+readmol2 warning: renaming non-unique atom H to H15 .
+readmol2 warning: renaming non-unique atom H to H16 .
+readmol2 warning: renaming non-unique atom H to H17 .
+readmol2 warning: renaming non-unique atom H to H18 .
+readmol2 warning: renaming non-unique atom H to H19 .
+readmol2 warning: renaming non-unique atom H to H20 .
+readmol2 warning: renaming non-unique atom H to H21 .
+readmol2 warning: renaming non-unique atom H to H22 .
+readmol2 warning: renaming non-unique atom H to H23 .
+readmol2 warning: renaming non-unique atom H to H24 .
+readmol2 warning: renaming non-unique atom H to H25 .
+readmol2 warning: renaming non-unique atom H to H26 .
+readmol2 warning: renaming non-unique atom H to H27 .
+readmol2 warning: renaming non-unique atom H to H28 .
+readmol2 warning: renaming non-unique atom H to H29 .
+readmol2 warning: renaming non-unique atom H to H30 .
+readmol2 warning: renaming non-unique atom H to H31 .
+readmol2 warning: renaming non-unique atom H to H32 .
+readmol2 warning: renaming non-unique atom H to H33 .
+readmol2 warning: renaming non-unique atom H to H34 .
+readmol2 warning: renaming non-unique atom H to H35 .
+readmol2 warning: renaming non-unique atom H to H36 .
+readmol2 warning: renaming non-unique atom H to H37 .
+readmol2 warning: renaming non-unique atom H to H38 .
+readmol2 warning: renaming non-unique atom H to H39 .
+readmol2 warning: renaming non-unique atom H to H40 .
+readmol2 warning: renaming non-unique atom H to H41 .
+readmol2 warning: renaming non-unique atom H to H42 .
+readmol2 warning: renaming non-unique atom H to H43 .
+readmol2 warning: renaming non-unique atom H to H44 .
+readmol2 warning: renaming non-unique atom H to H45 .
+readmol2 warning: renaming non-unique atom H to H46 .
+readmol2 warning: renaming non-unique atom H to H47 .
+readmol2 warning: renaming non-unique atom H to H48 .
+readmol2 warning: renaming non-unique atom H to H49 .
+readmol2 warning: renaming non-unique atom H to H50 .
+readmol2 warning: renaming non-unique atom H to H51 .
+readmol2 warning: renaming non-unique atom H to H52 .
+readmol2 warning: renaming non-unique atom H to H53 .
+readmol2 warning: renaming non-unique atom H to H54 .
+readmol2 warning: renaming non-unique atom H to H55 .
+readmol2 warning: renaming non-unique atom H to H56 .
+readmol2 warning: renaming non-unique atom H to H57 .
+readmol2 warning: renaming non-unique atom H to H58 .
+readmol2 warning: renaming non-unique atom H to H59 .
+readmol2 warning: renaming non-unique atom H to H60 .
+readmol2 warning: renaming non-unique atom H to H61 .
+readmol2 warning: renaming non-unique atom H to H62 .
+readmol2 warning: renaming non-unique atom H to H63 .
+readmol2 warning: renaming non-unique atom H to H64 .
+readmol2 warning: renaming non-unique atom H to H65 .
+readmol2 warning: renaming non-unique atom H to H66 .
+readmol2 warning: renaming non-unique atom H to H67 .
+readmol2 warning: renaming non-unique atom H to H68 .
+readmol2 warning: renaming non-unique atom H to H69 .
+readmol2 warning: renaming non-unique atom H to H70 .
+readmol2 warning: renaming non-unique atom H to H71 .
+readmol2 warning: renaming non-unique atom H to H72 .
+readmol2 warning: renaming non-unique atom H to H73 .
+readmol2 warning: renaming non-unique atom H to H74 .
+readmol2 warning: renaming non-unique atom H to H75 .
+readmol2 warning: renaming non-unique atom H to H76 .
+readmol2 warning: renaming non-unique atom H to H77 .
+readmol2 warning: renaming non-unique atom H to H78 .
+readmol2 warning: renaming non-unique atom H to H79 .
+readmol2 warning: renaming non-unique atom H to H80 .
+readmol2 warning: renaming non-unique atom H to H81 .
+readmol2 warning: renaming non-unique atom H to H82 .
+readmol2 warning: renaming non-unique atom H to H83 .
+readmol2 warning: renaming non-unique atom H to H84 .
+readmol2 warning: renaming non-unique atom H to H85 .
+readmol2 warning: renaming non-unique atom H to H86 .
+readmol2 warning: renaming non-unique atom H to H87 .
+readmol2 warning: renaming non-unique atom H to H88 .
+readmol2 warning: renaming non-unique atom H to H89 .
+readmol2 warning: renaming non-unique atom H to H90 .
+readmol2 warning: renaming non-unique atom H to H91 .
+readmol2 warning: renaming non-unique atom H to H92 .
+readmol2 warning: renaming non-unique atom H to H93 .
+readmol2 warning: renaming non-unique atom H to H94 .
+readmol2 warning: renaming non-unique atom H to H95 .
+readmol2 warning: renaming non-unique atom H to H96 .
+readmol2 warning: renaming non-unique atom H to H97 .
+readmol2 warning: renaming non-unique atom H to H98 .
+readmol2 warning: renaming non-unique atom H to H99 .
+readmol2 warning: renaming non-unique atom O to O1 .
+readmol2 warning: renaming non-unique atom O to O2 .
+readmol2 warning: renaming non-unique atom O to O3 .
+readmol2 warning: renaming non-unique atom O to O4 .
+readmol2 warning: renaming non-unique atom O to O5 .
+readmol2 warning: renaming non-unique atom O to O6 .
+readmol2 warning: renaming non-unique atom O to O7 .
+readmol2 warning: renaming non-unique atom O to O8 .
+readmol2 warning: renaming non-unique atom O to O9 .
+readmol2 warning: renaming non-unique atom O to O10 .
+readmol2 warning: renaming non-unique atom O to O11 .
+readmol2 warning: renaming non-unique atom O to O12 .
+readmol2 warning: renaming non-unique atom O to O13 .
+readmol2 warning: renaming non-unique atom O to O14 .
+Now processing molecule CBZ ...
+ringper debug: stored 6-membered ring in stage 1.
+ringper debug: stored 6-membered ring in stage 1.
+ringper debug: stored 6-membered ring in stage 2.
+ringper debug: stored 6-membered ring in stage 2.
+ringper debug: added anchor for 6-membered ring in stage 2.
+ringper debug: added anchor for 6-membered ring in stage 2.
+ringper debug: applied 4-membered ring in stage 2.
+ringper debug: added anchor for 6-membered ring in stage 2.
+ringper debug: applied 4-membered ring in stage 2.
+ringper debug: added anchor for 6-membered ring in stage 2.
+paranalogy debug: finding analogy for dihedral CG321 CG321 OG301 CG301
+paranalogy debug: finding analogy for dihedral HGA2 CG321 OG301 CG301
+paranalogy debug: finding analogy for dihedral CG331 CG301 OG301 CG311
+paranalogy debug: finding analogy for dihedral OG301 CG301 OG301 CG311
+paranalogy debug: finding analogy for dihedral CG331 CG301 OG301 CG321
+paranalogy debug: finding analogy for dihedral OG301 CG301 OG301 CG321
+paranalogy debug: finding analogy for dihedral HGP1 NG2S1 CG2O1 CG301
+paranalogy debug: finding analogy for dihedral CG311 NG2S1 CG2O1 CG301
+paranalogy debug: finding analogy for dihedral OG301 CG311 CG2O2 OG2D1
+paranalogy debug: finding analogy for dihedral OG301 CG311 CG2O2 OG302
+paranalogy debug: finding analogy for dihedral CG2O2 CG311 CG311 NG2S1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG2O2 CG311 CG311 CG2R61
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral HGA1 CG311 CG311 CG2R61
+paranalogy debug: finding analogy for dihedral OG301 CG311 CG311 CG2R61
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG311 CG2O2 OG302 CG311
+paranalogy debug: finding analogy for dihedral CG2D1 CG311 CG321 CG301
+paranalogy debug: finding analogy for dihedral OG302 CG311 CG321 CG301
+paranalogy debug: finding analogy for dihedral CG321 CG311 CG2D1 CG331
+paranalogy debug: finding analogy for dihedral HGA1 CG311 CG2D1 CG331
+paranalogy debug: finding analogy for dihedral OG302 CG311 CG2D1 CG2D1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral OG302 CG311 CG2D1 CG331
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG311 CG321 CG301 CG311
+paranalogy debug: finding analogy for dihedral CG311 CG321 CG301 CG301
+paranalogy debug: finding analogy for dihedral CG311 CG321 CG301 OG311
+paranalogy debug: finding analogy for dihedral HGA2 CG321 CG301 CG301
+paranalogy debug: finding analogy for dihedral HGA2 CG321 CG301 OG311
+paranalogy debug: finding analogy for dihedral CG321 CG301 CG311 OG302
+paranalogy debug: finding analogy for dihedral CG301 CG301 CG311 CG311
+paranalogy debug: finding analogy for dihedral CG301 CG301 CG311 OG302
+paranalogy debug: finding analogy for dihedral CG301 CG301 CG311 HGA1
+paranalogy debug: finding analogy for dihedral OG311 CG301 CG311 CG311
+paranalogy debug: finding analogy for dihedral OG311 CG301 CG311 OG302
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for CG301 CG301
+paranalogy debug: finding analogy for dihedral CG321 CG301 CG301 CG2D1
+paranalogy debug: finding analogy for dihedral CG321 CG301 CG301 CG331
+paranalogy debug: finding analogy for dihedral CG311 CG301 CG301 CG2D1
+paranalogy debug: finding analogy for dihedral CG311 CG301 CG301 CG331
+paranalogy debug: finding analogy for dihedral OG311 CG301 CG301 CG2D1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral OG311 CG301 CG301 CG331
+paranalogy debug: finding analogy for dihedral CG321 CG301 OG311 HGP1
+paranalogy debug: finding analogy for dihedral CG301 CG301 OG311 HGP1
+paranalogy debug: finding analogy for dihedral CG301 CG311 CG311 CG301
+paranalogy debug: finding analogy for dihedral OG302 CG311 CG311 CG301
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral OG302 CG311 CG311 CG3RC1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral OG302 CG311 CG311 HGA1
+paranalogy debug: finding analogy for dihedral CG301 CG311 OG302 CG2O2
+paranalogy debug: finding analogy for dihedral CG311 CG311 OG302 CG2O2
+paranalogy debug: finding analogy for dihedral CG311 CG311 CG301 CG2O5
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG3RC1 CG311 CG301 CG331
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG3RC1 CG311 CG301 CG2O5
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG3RC1 CG311 CG301 CG311
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral HGA1 CG311 CG301 CG2O5
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG311 CG311 CG3RC1 CG3C41
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG311 CG311 CG3RC1 OG302
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG301 CG311 CG3RC1 CG3RC1
+paranalogy debug: finding analogy for dihedral CG301 CG311 CG3RC1 CG3C41
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG301 CG311 CG3RC1 OG302
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral HGA1 CG311 CG3RC1 CG3C41
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral HGA1 CG311 CG3RC1 OG302
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG2O5 CG301 CG331 HGA3
+paranalogy debug: finding analogy for CG301 CG2O5
+paranalogy debug: finding analogy for dihedral CG311 CG301 CG2O5 CG311
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG311 CG301 CG2O5 OG2D3
+paranalogy debug: finding analogy for dihedral CG331 CG301 CG2O5 CG311
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG331 CG301 CG2O5 OG2D3
+paranalogy debug: finding analogy for dihedral CG311 CG301 CG311 OG301
+paranalogy debug: finding analogy for dihedral CG331 CG301 CG311 OG301
+paranalogy debug: finding analogy for dihedral CG2O5 CG301 CG311 CG321
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG2O5 CG301 CG311 OG301
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG301 CG2O5 CG311 CG2D1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG301 CG2O5 CG311 OG301
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG301 CG2O5 CG311 HGA1
+paranalogy debug: finding analogy for dihedral OG2D3 CG2O5 CG311 CG2D1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral OG2D3 CG2O5 CG311 OG301
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG2O5 CG311 CG2D1 CG2D1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG2O5 CG311 CG2D1 CG301
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral OG301 CG311 CG2D1 CG2D1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral OG301 CG311 CG2D1 CG301
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral HGA1 CG311 CG2D1 CG301
+paranalogy debug: finding analogy for dihedral CG2O5 CG311 OG301 CG331
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG2D1 CG311 OG301 CG331
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG311 CG2D1 CG2D1 CG311
+paranalogy debug: finding analogy for dihedral CG311 CG2D1 CG2D1 CG331
+paranalogy debug: finding analogy for dihedral CG301 CG2D1 CG2D1 CG311
+paranalogy debug: finding analogy for dihedral CG311 CG2D1 CG301 CG301
+paranalogy debug: finding analogy for dihedral CG311 CG2D1 CG301 CG331
+paranalogy debug: finding analogy for dihedral CG2D1 CG2D1 CG301 CG301
+paranalogy debug: finding analogy for dihedral CG311 CG2D1 CG331 HGA3
+paranalogy debug: finding analogy for dihedral CG301 CG301 CG331 HGA3
+paranalogy debug: finding analogy for dihedral CG301 CG311 CG321 CG3RC1
+paranalogy debug: finding analogy for dihedral OG301 CG311 CG321 CG3RC1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral HGA1 CG311 CG321 CG3RC1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG301 CG311 OG301 CG331
+paranalogy debug: finding analogy for dihedral CG321 CG311 OG301 CG331
+paranalogy debug: finding analogy for dihedral CG311 CG321 CG3RC1 CG3RC1
+paranalogy debug: finding analogy for dihedral CG311 CG321 CG3RC1 OG3C51
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG311 CG321 CG3RC1 HGA1
+paranalogy debug: finding analogy for dihedral HGA2 CG321 CG3RC1 OG3C51
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG321 CG3RC1 CG3RC1 CG3C41
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG321 CG3RC1 CG3RC1 OG302
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral OG3C51 CG3RC1 CG3RC1 CG311
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral OG3C51 CG3RC1 CG3RC1 CG3C41
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral OG3C51 CG3RC1 CG3RC1 OG302
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral HGA1 CG3RC1 CG3RC1 CG3C41
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral HGA1 CG3RC1 CG3RC1 OG302
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG321 CG3RC1 OG3C51 CG3C41
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG3RC1 CG3RC1 OG3C51 CG3C41
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral HGA1 CG3RC1 OG3C51 CG3C41
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for CG3C41 CG3RC1
+paranalogy debug: finding analogy for dihedral HGA2 CG3C41 CG3RC1 CG311
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral HGA2 CG3C41 CG3RC1 CG3RC1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral HGA2 CG3C41 CG3RC1 OG302
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral OG3C51 CG3C41 CG3RC1 CG311
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral OG3C51 CG3C41 CG3RC1 CG3RC1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral OG3C51 CG3C41 CG3RC1 OG302
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for CG3RC1 OG302
+paranalogy debug: finding analogy for dihedral CG311 CG3RC1 OG302 CG2O2
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG3RC1 CG3RC1 OG302 CG2O2
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG3C41 CG3RC1 OG302 CG2O2
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG2O1 NG2S1 CG311 CG2R61
+paranalogy debug: finding analogy for dihedral HGP1 NG2S1 CG311 CG2R61
+paranalogy debug: finding analogy for dihedral CG311 CG311 CG2R61 CG2R61
+paranalogy debug: finding analogy for dihedral NG2S1 CG311 CG2R61 CG2R61
+paranalogy debug: finding analogy for CG2O1 CG301
+paranalogy debug: finding analogy for dihedral NG2S1 CG2O1 CG301 CG331
+paranalogy debug: finding analogy for dihedral OG2D1 CG2O1 CG301 CG331
+paranalogy debug: finding analogy for dihedral CG2O1 CG301 CG331 HGA3
+paranalogy debug: finding analogy for dihedral CG2O2 CG311 OG301 CG301
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG311 CG311 OG301 CG301
+paranalogy debug: finding analogy for dihedral HGA1 CG311 OG301 CG301
+paranalogy debug: finding analogy for dihedral CG2D1 CG311 OG302 CG2O2
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG2R61 CG2O2 OG302 CG311
+paranalogy debug: finding analogy for dihedral CG3RC1 CG3C41 OG3C51 CG3RC1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral HGA2 CG3C41 OG3C51 CG3RC1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG331 CG2O2 OG302 CG3RC1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral OG2D1 CG2O2 OG302 CG3RC1
+paranalogy debug: finding analogy for CG301 OG301 CG321
+paranalogy debug: finding analogy for OG301 CG311 CG2O2
+paranalogy debug: finding analogy for OG302 CG311 CG2D1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for CG301 CG301 CG321
+paranalogy debug: finding analogy for CG301 CG301 CG311
+paranalogy debug: finding analogy for OG311 CG301 CG321
+paranalogy debug: finding analogy for OG311 CG301 CG301
+paranalogy debug: finding analogy for OG302 CG311 CG301
+paranalogy debug: finding analogy for OG302 CG311 CG311
+paranalogy debug: finding analogy for CG3RC1 CG311 CG301
+paranalogy debug: finding analogy for CG2O5 CG301 CG311
+paranalogy debug: finding analogy for CG2O5 CG301 CG331
+paranalogy debug: finding analogy for CG311 CG2O5 CG301
+paranalogy debug: finding analogy for OG2D3 CG2O5 CG301
+paranalogy debug: finding analogy for improper CG2O5 CG311 OG2D3 CG301
+paranalogy debug: finding analogy for CG2D1 CG311 CG2O5
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for OG301 CG311 CG2O5
+paranalogy debug: finding analogy for OG301 CG311 CG2D1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for CG301 CG2D1 CG311
+paranalogy debug: finding analogy for CG331 CG2D1 CG311
+paranalogy debug: finding analogy for CG2D1 CG301 CG301
+paranalogy debug: finding analogy for CG331 CG301 CG301
+paranalogy debug: finding analogy for OG301 CG311 CG301
+paranalogy debug: finding analogy for CG3RC1 CG321 CG311
+paranalogy debug: finding analogy for OG3C51 CG3RC1 CG321
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for HGA2 CG3C41 CG3RC1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for OG3C51 CG3C41 CG3RC1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for CG3C41 CG3RC1 CG311
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for CG3C41 CG3RC1 CG3RC1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+exhaustive warning: no rule for atom type SEGD1 from parameter file.
+paranalogy debug: finding analogy for OG302 CG3RC1 CG311
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for OG302 CG3RC1 CG3RC1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+exhaustive warning: no rule for atom type SEGD1 from parameter file.
+paranalogy debug: finding analogy for OG302 CG3RC1 CG3C41
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for CG2R61 CG311 CG311
+paranalogy debug: finding analogy for CG2R61 CG311 NG2S1
+paranalogy debug: finding analogy for CG301 CG2O1 NG2S1
+paranalogy debug: finding analogy for OG2D1 CG2O1 CG301
+paranalogy debug: finding analogy for improper CG2O1 CG301 OG2D1 NG2S1
+paranalogy debug: finding analogy for CG331 CG301 CG2O1
+paranalogy debug: finding analogy for CG311 OG301 CG301
+paranalogy debug: finding analogy for CG3C41 OG3C51 CG3RC1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for CG2O2 OG302 CG3RC1
+paranalogy debug: finding analogy for dihedral CG321 CG321 OG301 CG301
+paranalogy debug: finding analogy for dihedral HGA2 CG321 OG301 CG301
+paranalogy debug: finding analogy for dihedral HGA2 CG321 OG301 CG301
+paranalogy debug: finding analogy for dihedral CG331 CG301 OG301 CG311
+paranalogy debug: finding analogy for dihedral CG331 CG301 OG301 CG311
+paranalogy debug: finding analogy for dihedral OG301 CG301 OG301 CG311
+paranalogy debug: finding analogy for dihedral CG331 CG301 OG301 CG321
+paranalogy debug: finding analogy for dihedral CG331 CG301 OG301 CG321
+paranalogy debug: finding analogy for dihedral OG301 CG301 OG301 CG321
+paranalogy debug: finding analogy for dihedral HGP1 NG2S1 CG2O1 CG301
+paranalogy debug: finding analogy for dihedral CG311 NG2S1 CG2O1 CG301
+paranalogy debug: finding analogy for dihedral OG301 CG311 CG2O2 OG2D1
+paranalogy debug: finding analogy for dihedral OG301 CG311 CG2O2 OG302
+paranalogy debug: finding analogy for dihedral CG2O2 CG311 CG311 NG2S1
+paranalogy debug: finding analogy for dihedral CG2O2 CG311 CG311 CG2R61
+paranalogy debug: finding analogy for dihedral HGA1 CG311 CG311 CG2R61
+paranalogy debug: finding analogy for dihedral OG301 CG311 CG311 CG2R61
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG311 CG2O2 OG302 CG311
+paranalogy debug: finding analogy for dihedral CG2D1 CG311 CG321 CG301
+paranalogy debug: finding analogy for dihedral HGA1 CG311 CG321 CG301
+paranalogy debug: finding analogy for dihedral OG302 CG311 CG321 CG301
+paranalogy debug: finding analogy for dihedral CG321 CG311 CG2D1 CG331
+paranalogy debug: finding analogy for dihedral HGA1 CG311 CG2D1 CG331
+paranalogy debug: finding analogy for dihedral OG302 CG311 CG2D1 CG2D1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral OG302 CG311 CG2D1 CG331
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG311 CG321 CG301 CG311
+paranalogy debug: finding analogy for dihedral CG311 CG321 CG301 CG301
+paranalogy debug: finding analogy for dihedral CG311 CG321 CG301 OG311
+paranalogy debug: finding analogy for dihedral HGA2 CG321 CG301 CG301
+paranalogy debug: finding analogy for dihedral HGA2 CG321 CG301 OG311
+paranalogy debug: finding analogy for dihedral HGA2 CG321 CG301 CG301
+paranalogy debug: finding analogy for dihedral HGA2 CG321 CG301 OG311
+paranalogy debug: finding analogy for dihedral CG321 CG301 CG311 OG302
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG301 CG301 CG311 CG311
+paranalogy debug: finding analogy for dihedral CG301 CG301 CG311 OG302
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG301 CG301 CG311 HGA1
+paranalogy debug: finding analogy for dihedral OG311 CG301 CG311 CG311
+paranalogy debug: finding analogy for dihedral OG311 CG301 CG311 OG302
+paranalogy debug: finding analogy for CG301 CG301
+paranalogy debug: finding analogy for dihedral CG321 CG301 CG301 CG2D1
+paranalogy debug: finding analogy for dihedral CG321 CG301 CG301 CG331
+paranalogy debug: finding analogy for dihedral CG321 CG301 CG301 CG331
+paranalogy debug: finding analogy for dihedral CG311 CG301 CG301 CG2D1
+paranalogy debug: finding analogy for dihedral CG311 CG301 CG301 CG331
+paranalogy debug: finding analogy for dihedral CG311 CG301 CG301 CG331
+paranalogy debug: finding analogy for dihedral OG311 CG301 CG301 CG2D1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral OG311 CG301 CG301 CG331
+paranalogy debug: finding analogy for dihedral OG311 CG301 CG301 CG331
+paranalogy debug: finding analogy for dihedral CG321 CG301 OG311 HGP1
+paranalogy debug: finding analogy for dihedral CG301 CG301 OG311 HGP1
+paranalogy debug: finding analogy for dihedral CG301 CG311 CG311 CG301
+paranalogy debug: finding analogy for dihedral OG302 CG311 CG311 CG301
+paranalogy debug: finding analogy for dihedral OG302 CG311 CG311 CG3RC1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral OG302 CG311 CG311 HGA1
+paranalogy debug: finding analogy for dihedral CG301 CG311 OG302 CG2O2
+paranalogy debug: finding analogy for dihedral CG311 CG311 OG302 CG2O2
+paranalogy debug: finding analogy for dihedral CG311 CG311 CG301 CG2O5
+paranalogy debug: finding analogy for dihedral CG3RC1 CG311 CG301 CG331
+paranalogy debug: finding analogy for dihedral CG3RC1 CG311 CG301 CG2O5
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG3RC1 CG311 CG301 CG311
+paranalogy debug: finding analogy for dihedral HGA1 CG311 CG301 CG2O5
+paranalogy debug: finding analogy for dihedral CG311 CG311 CG3RC1 CG3C41
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG311 CG311 CG3RC1 OG302
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG301 CG311 CG3RC1 CG3RC1
+paranalogy debug: finding analogy for dihedral CG301 CG311 CG3RC1 CG3C41
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG301 CG311 CG3RC1 OG302
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral HGA1 CG311 CG3RC1 CG3C41
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral HGA1 CG311 CG3RC1 OG302
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG2O5 CG301 CG331 HGA3
+paranalogy debug: finding analogy for dihedral CG2O5 CG301 CG331 HGA3
+paranalogy debug: finding analogy for dihedral CG2O5 CG301 CG331 HGA3
+paranalogy debug: finding analogy for CG301 CG2O5
+paranalogy debug: finding analogy for dihedral CG311 CG301 CG2O5 CG311
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG311 CG301 CG2O5 OG2D3
+paranalogy debug: finding analogy for dihedral CG331 CG301 CG2O5 CG311
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG331 CG301 CG2O5 OG2D3
+paranalogy debug: finding analogy for dihedral CG311 CG301 CG2O5 CG311
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG311 CG301 CG2O5 OG2D3
+paranalogy debug: finding analogy for dihedral CG311 CG301 CG311 OG301
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG331 CG301 CG311 OG301
+paranalogy debug: finding analogy for dihedral CG2O5 CG301 CG311 CG321
+paranalogy debug: finding analogy for dihedral CG2O5 CG301 CG311 OG301
+paranalogy debug: finding analogy for dihedral CG2O5 CG301 CG311 HGA1
+paranalogy debug: finding analogy for dihedral CG301 CG2O5 CG311 CG2D1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG301 CG2O5 CG311 OG301
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG301 CG2O5 CG311 HGA1
+paranalogy debug: finding analogy for dihedral OG2D3 CG2O5 CG311 CG2D1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral OG2D3 CG2O5 CG311 OG301
+paranalogy debug: finding analogy for dihedral CG2O5 CG311 CG2D1 CG2D1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG2O5 CG311 CG2D1 CG301
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral OG301 CG311 CG2D1 CG2D1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral OG301 CG311 CG2D1 CG301
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral HGA1 CG311 CG2D1 CG301
+paranalogy debug: finding analogy for dihedral CG2O5 CG311 OG301 CG331
+paranalogy debug: finding analogy for dihedral CG2D1 CG311 OG301 CG331
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG311 CG2D1 CG2D1 CG311
+paranalogy debug: finding analogy for dihedral CG311 CG2D1 CG2D1 CG331
+paranalogy debug: finding analogy for dihedral CG301 CG2D1 CG2D1 CG311
+paranalogy debug: finding analogy for dihedral CG311 CG2D1 CG301 CG301
+paranalogy debug: finding analogy for dihedral CG311 CG2D1 CG301 CG331
+paranalogy debug: finding analogy for dihedral CG311 CG2D1 CG301 CG331
+paranalogy debug: finding analogy for dihedral CG2D1 CG2D1 CG301 CG301
+paranalogy debug: finding analogy for dihedral CG311 CG2D1 CG331 HGA3
+paranalogy debug: finding analogy for dihedral CG311 CG2D1 CG331 HGA3
+paranalogy debug: finding analogy for dihedral CG311 CG2D1 CG331 HGA3
+paranalogy debug: finding analogy for dihedral CG301 CG301 CG331 HGA3
+paranalogy debug: finding analogy for dihedral CG301 CG301 CG331 HGA3
+paranalogy debug: finding analogy for dihedral CG301 CG301 CG331 HGA3
+paranalogy debug: finding analogy for dihedral CG301 CG301 CG331 HGA3
+paranalogy debug: finding analogy for dihedral CG301 CG301 CG331 HGA3
+paranalogy debug: finding analogy for dihedral CG301 CG301 CG331 HGA3
+paranalogy debug: finding analogy for dihedral CG301 CG311 CG321 CG3RC1
+paranalogy debug: finding analogy for dihedral OG301 CG311 CG321 CG3RC1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral HGA1 CG311 CG321 CG3RC1
+paranalogy debug: finding analogy for dihedral CG301 CG311 OG301 CG331
+paranalogy debug: finding analogy for dihedral CG321 CG311 OG301 CG331
+paranalogy debug: finding analogy for dihedral CG311 CG321 CG3RC1 CG3RC1
+paranalogy debug: finding analogy for dihedral CG311 CG321 CG3RC1 OG3C51
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG311 CG321 CG3RC1 HGA1
+paranalogy debug: finding analogy for dihedral HGA2 CG321 CG3RC1 OG3C51
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral HGA2 CG321 CG3RC1 OG3C51
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG321 CG3RC1 CG3RC1 CG3C41
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG321 CG3RC1 CG3RC1 OG302
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral OG3C51 CG3RC1 CG3RC1 CG311
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral OG3C51 CG3RC1 CG3RC1 CG3C41
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral OG3C51 CG3RC1 CG3RC1 OG302
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral HGA1 CG3RC1 CG3RC1 CG3C41
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral HGA1 CG3RC1 CG3RC1 OG302
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG321 CG3RC1 OG3C51 CG3C41
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG3RC1 CG3RC1 OG3C51 CG3C41
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral HGA1 CG3RC1 OG3C51 CG3C41
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for CG3C41 CG3RC1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral HGA2 CG3C41 CG3RC1 CG311
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral HGA2 CG3C41 CG3RC1 CG3RC1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral HGA2 CG3C41 CG3RC1 OG302
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral HGA2 CG3C41 CG3RC1 CG311
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral HGA2 CG3C41 CG3RC1 CG3RC1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral HGA2 CG3C41 CG3RC1 OG302
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral OG3C51 CG3C41 CG3RC1 CG311
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral OG3C51 CG3C41 CG3RC1 CG3RC1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral OG3C51 CG3C41 CG3RC1 OG302
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for CG3RC1 OG302
+paranalogy debug: finding analogy for dihedral CG311 CG3RC1 OG302 CG2O2
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG3RC1 CG3RC1 OG302 CG2O2
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG3C41 CG3RC1 OG302 CG2O2
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG2O1 NG2S1 CG311 CG2R61
+paranalogy debug: finding analogy for dihedral HGP1 NG2S1 CG311 CG2R61
+paranalogy debug: finding analogy for dihedral CG311 CG311 CG2R61 CG2R61
+paranalogy debug: finding analogy for dihedral CG311 CG311 CG2R61 CG2R61
+paranalogy debug: finding analogy for dihedral NG2S1 CG311 CG2R61 CG2R61
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral NG2S1 CG311 CG2R61 CG2R61
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for CG2O1 CG301
+paranalogy debug: finding analogy for dihedral NG2S1 CG2O1 CG301 CG331
+paranalogy debug: finding analogy for dihedral NG2S1 CG2O1 CG301 CG331
+paranalogy debug: finding analogy for dihedral NG2S1 CG2O1 CG301 CG331
+paranalogy debug: finding analogy for dihedral OG2D1 CG2O1 CG301 CG331
+paranalogy debug: finding analogy for dihedral OG2D1 CG2O1 CG301 CG331
+paranalogy debug: finding analogy for dihedral OG2D1 CG2O1 CG301 CG331
+paranalogy debug: finding analogy for dihedral CG2O1 CG301 CG331 HGA3
+paranalogy debug: finding analogy for dihedral CG2O1 CG301 CG331 HGA3
+paranalogy debug: finding analogy for dihedral CG2O1 CG301 CG331 HGA3
+paranalogy debug: finding analogy for dihedral CG2O1 CG301 CG331 HGA3
+paranalogy debug: finding analogy for dihedral CG2O1 CG301 CG331 HGA3
+paranalogy debug: finding analogy for dihedral CG2O1 CG301 CG331 HGA3
+paranalogy debug: finding analogy for dihedral CG2O1 CG301 CG331 HGA3
+paranalogy debug: finding analogy for dihedral CG2O1 CG301 CG331 HGA3
+paranalogy debug: finding analogy for dihedral CG2O1 CG301 CG331 HGA3
+paranalogy debug: finding analogy for dihedral CG2O2 CG311 OG301 CG301
+paranalogy debug: finding analogy for dihedral CG311 CG311 OG301 CG301
+paranalogy debug: finding analogy for dihedral HGA1 CG311 OG301 CG301
+paranalogy debug: finding analogy for dihedral CG2D1 CG311 OG302 CG2O2
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG2R61 CG2O2 OG302 CG311
+paranalogy debug: finding analogy for dihedral CG3RC1 CG3C41 OG3C51 CG3RC1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral HGA2 CG3C41 OG3C51 CG3RC1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral HGA2 CG3C41 OG3C51 CG3RC1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral CG331 CG2O2 OG302 CG3RC1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for dihedral OG2D1 CG2O2 OG302 CG3RC1
+paranalogy debug: finding analogy for CG301 OG301 CG321
+paranalogy debug: finding analogy for OG301 CG311 CG2O2
+paranalogy debug: finding analogy for OG302 CG311 CG2D1
+paranalogy debug: finding analogy for CG301 CG321 CG311
+paranalogy debug: finding analogy for CG301 CG301 CG321
+paranalogy debug: finding analogy for CG301 CG301 CG311
+paranalogy debug: finding analogy for OG311 CG301 CG321
+paranalogy debug: finding analogy for OG311 CG301 CG301
+paranalogy debug: finding analogy for OG302 CG311 CG301
+paranalogy debug: finding analogy for OG302 CG311 CG311
+paranalogy debug: finding analogy for CG3RC1 CG311 CG301
+paranalogy debug: finding analogy for CG2O5 CG301 CG311
+paranalogy debug: finding analogy for CG2O5 CG301 CG331
+paranalogy debug: finding analogy for CG311 CG301 CG2O5
+paranalogy debug: finding analogy for CG311 CG2O5 CG301
+paranalogy debug: finding analogy for OG2D3 CG2O5 CG301
+paranalogy debug: finding analogy for CG2D1 CG311 CG2O5
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for OG301 CG311 CG2O5
+paranalogy debug: finding analogy for OG301 CG311 CG2D1
+paranalogy debug: finding analogy for CG301 CG2D1 CG311
+paranalogy debug: finding analogy for CG331 CG2D1 CG311
+paranalogy debug: finding analogy for CG2D1 CG301 CG301
+paranalogy debug: finding analogy for CG331 CG301 CG301
+paranalogy debug: finding analogy for CG331 CG301 CG301
+paranalogy debug: finding analogy for OG301 CG311 CG301
+paranalogy debug: finding analogy for CG3RC1 CG321 CG311
+paranalogy debug: finding analogy for OG3C51 CG3RC1 CG321
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for HGA2 CG3C41 CG3RC1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for HGA2 CG3C41 CG3RC1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for OG3C51 CG3C41 CG3RC1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for CG3C41 CG3RC1 CG311
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for CG3C41 CG3RC1 CG3RC1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for OG302 CG3RC1 CG311
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for OG302 CG3RC1 CG3RC1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for OG302 CG3RC1 CG3C41
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for CG2R61 CG311 CG311
+paranalogy debug: finding analogy for CG2R61 CG311 NG2S1
+paranalogy debug: finding analogy for CG301 CG2O1 NG2S1
+paranalogy debug: finding analogy for OG2D1 CG2O1 CG301
+paranalogy debug: finding analogy for CG331 CG301 CG2O1
+paranalogy debug: finding analogy for CG331 CG301 CG2O1
+paranalogy debug: finding analogy for CG331 CG301 CG2O1
+paranalogy debug: finding analogy for CG311 OG301 CG301
+paranalogy debug: finding analogy for CG3C41 OG3C51 CG3RC1
+paranalogy debug: "smart algorithm" found no matching parameters;
+switching to "exhaustive algorithm"
+paranalogy debug: finding analogy for CG2O2 OG302 CG3RC1

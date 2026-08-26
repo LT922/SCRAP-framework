@@ -1,0 +1,30 @@
+# This file was created Fri Jun  5 16:39:15 2026
+# Created by:
+#                      :-) GROMACS - gmx cluster, 2023 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /mnt/sda1/MD_divide/drugspolymers/pcldtxsic18/ana
+# Command line:
+#   gmx cluster -f ../MD_noPBC.xtc -s ../MD.tpr -cutoff 2 -o cluster.xpm -g cluster.log -sz size.xvg -ntr ntr.xvg -clid nclid.xvg -cl clusters.pdb -tu ps -dt 500
+# gmx cluster is part of G R O M A C S:
+#
+# Gromacs Runs On Most of All Computer Systems
+#
+@    title "Cluster Transitions"
+@    xaxis  label "Cluster #"
+@    yaxis  label "# transitions"
+@TYPE xy
+    1     1
+    2     2
+    3     2
+    4     2
+    5     2
+    6     8
+    7     2
+    8    38
+    9    20
+   10     2
+   11     2
+   12    12
+   13     3

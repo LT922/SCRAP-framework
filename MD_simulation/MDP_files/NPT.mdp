@@ -1,0 +1,59 @@
+;define               = -DFLEXIBLE            ;拓扑信息中使用柔性水
+
+;运行控制参数
+integrator            = md                         ;使用蛙跳式算法积分牛顿运动方程.(md_vv: 使用Verlet算法积分牛顿运动方程) ;
+dt                    = 0.002                      ;积分的时间步长（ps）.2fs ;
+nsteps                = 1000000                    ;积分过程的最大迭代次数(模拟总时间为nsteps*dt 2*1000000=2ns)   ;
+;tinit                = 0                          ;运行的起始时间.只对基于时间的积分方法有意义 (ps) ;
+
+;输出控制
+nstxout               = 0                        ;坐标输出轨迹文件的间隔步数,1ps ;
+nstvout               = 0                        ;速度输出轨迹文件的间隔步数 ;
+nstfout               = 0                        ;力输出轨迹文件的间隔步数 ;
+nstenergy             = 50000                      ;能量输出文件的间隔步数     ;
+nstlog                = 50000                      ;能量写入日志文件的间隔步数   ;
+
+
+;临近列表参数
+cutoff_scheme         = Verlet                ;生成带有缓冲的配对列表;
+nstlist               = 10                    ;更新邻区列表的频率.20fs;
+ns_type               = grid                  ;通过在盒子中生成格点构建每步的邻区列表;
+;rlist                = 1.0                   ;短程力临近列表的截断值 (nm). 使用cutoff_scheme=Verlet截断方案时忽略rlist截断值.;
+
+;力场的截断距离
+coulombtype           = PME                           ;计算长程静电的快速平滑粒子网格Ewald方法;
+rcoulomb              = 1.0                           ;长程库仑力的截断值. (nm);
+pme_order             = 4                             ;PME插值的阶数，4表示三次插值;
+;fourierspacing       = 0.16                          ;傅里叶空间格点间距 (nm);
+vdwtype               = Cut_off                       ;计算范德华作用的简单截断方法.配对列表半径 rlist≥范德华截断 rvdw;
+vdw-modifier          = force-switch                   ;
+rvdw-switch            = 0.1                           ;
+rvdw                  = 1.0                          ;范德华相互作用截断值. (nm);
+DispCorr              = EnerPres                     ;对能量和压力进行长程色散校正.;
+pbc                   = xyz                          ;在所有方向上使用周期性边界条件;
+
+
+;控温控压参数
+tcoupl                = V-rescale                       ;使用带有随机项的速度重新缩放方法进行温度耦合  ;
+tc_grps               = polymer&drug   SOL_Ion              ;独立地耦合到温度浴的组      ;
+ref_t                 = 300            300              ;耦合的参考温度, 即动力学模拟温度. tc_grps中的每组一个值. (K) ;
+tau_t                 = 0.2            0.2              ;耦合的时间常数. tc_grps中的每组一个值.  (ps) ;
+;nsttcouple           =                                 ;与温度耦合的频率 ;
+;pcoupl               = no                              ;NVT中无压强控制 
+pcoupl                = Parrinello-Rahman               ;指数弛豫的压力耦合;
+pcoupltype            = isotropic                       ;各同向性压力耦合 ;
+ref_p                 = 1.0                             ;耦合的参考压力  (bar，一个大气压约为0.983 bar);
+tau_p                 = 0.5                            ; 压力耦合的时间常数. (ps)
+compressibility       = 4.5e-5                         ;压缩系数，处于1个标准大气压. (bar ^-1)
+
+;产生速度
+gen_vel               = no                   ;不产生速度 ;
+;gen_temp             = 300                  ;产生速度时的麦克斯韦分布的温度(k) ;
+;gen_seed             = -1                   ;产生随机速度 ;
+
+;键约束
+constraints           = h-bonds             ;对键进行约束 all-bonds  h-bonds;
+constraint_algorithm  = lincs                 ;线性约束求解器. LINCS不能用于耦合键角约束;
+lincs_order           = 4                     ;约束耦合矩阵展开的最高阶数;
+lincs_iter            = 1                     ;LINCS中用于校正旋转伸长的迭代次数;
+continuation          = yes                   ;不对初始构型施加约束，不重置壳层;
