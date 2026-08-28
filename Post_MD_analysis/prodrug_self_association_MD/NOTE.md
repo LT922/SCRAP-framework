@@ -9,7 +9,7 @@ Corresponding simulations:
 └── validation/
 ```
 
-Run one system at a time and explicitly provide the `mol` key from `segment_defination.tsv`.
+Run one system at a time and explicitly provide the `mol` key from `segment_definition.tsv`.
 
 P2-C18 example:
 
@@ -60,7 +60,7 @@ Pro1
 Pro2
 ```
 
-`segment_defination.tsv` determines which split residue groups are Par1/Par2 or Mod1/Mod2.
+`segment_definition.tsv` determines which split residue groups are Par1/Par2 or Mod1/Mod2.
 
 The final four SCRAP self-association terms are:
 
@@ -70,3 +70,11 @@ Par-Par
 Mod-Mod
 Par-Mod
 ```
+
+For prodrugs, the Par-Mod descriptor is the arithmetic mean of the two reciprocal cross-molecule interactions:
+
+```text
+Par-Mod = (Par1-Mod2 + Par2-Mod1) / 2
+```
+
+Both directional MM-PBSA calculations are retained, and the final averaged descriptor is written to `Par-Mod_summary.tsv`.

@@ -14,13 +14,13 @@
 # otherwise -> Packmol -> ...
 # ============================================================
 
-GMX=gmx
-NTOMP=8
-ROOT="$(pwd)/prodrug_self_association_MD"
+GMX="${GMX:-gmx}"
+NTOMP="${NTOMP:-8}"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+ROOT="$SCRIPT_DIR/prodrug_self_association_MD"
 
 if [ ! -d "$ROOT" ]; then
     echo "ERROR: prodrug_self_association_MD not found."
-    echo "Run this script from the copy/ directory."
     exit 1
 fi
 

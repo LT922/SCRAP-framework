@@ -1,6 +1,0 @@
-peg  marine
-pcl  cyane
-dtx pink
-dtl hotpink
-abi lightorange
-abl orange

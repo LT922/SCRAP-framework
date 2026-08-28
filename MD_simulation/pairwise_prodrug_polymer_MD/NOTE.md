@@ -8,6 +8,8 @@ Box:                8 × 8 × 8 nm³
 Packmol output:     polymerdrug.pdb
 ```
 
+Production duration: **200 ns** for every deposited production MD system in this class.
+
 The polymer coordinate supplied to Packmol is the pre-equilibrated:
 
 ```text
@@ -22,10 +24,10 @@ Subdirectories:
 - `validation/`: independent validation systems.
 - `mechanistic_controls/`: parent-drug/control systems used for mechanistic comparison.
 
-Run all systems from the repository root with:
+Run from the repository root with:
 
 ```bash
-./run_pairwise_prodrug_polymer_MD.sh
+bash MD_simulation/run_pairwise_prodrug_polymer_MD.sh
 ```
 
 The batch script builds the system with Packmol, creates an 8 nm cubic box, solvates the system, generates the required index groups, and runs EM → NVT → NPT → production MD.

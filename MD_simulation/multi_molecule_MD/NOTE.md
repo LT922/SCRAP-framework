@@ -10,6 +10,8 @@ Box:                14 × 14 × 14 nm³
 Packmol output:     polymerdrug.pdb
 ```
 
+Production duration: **200 ns** for every deposited production MD system in this class.
+
 For the mixed `DTX-SI-C18+Abi-SI-C18` system:
 
 ```text
@@ -24,10 +26,10 @@ mpeg2kpcl2knpt4ns.pdb
 
 This structure was obtained from the ztop-built mPEG2k-PCL2k chain after GROMACS energy minimization, 2 ns NVT and 4 ns NPT equilibration.
 
-Run all multi-molecule systems from the repository root with:
+Run from the repository root with:
 
 ```bash
-./run_multi_molecule_MD.sh
+bash MD_simulation/run_multi_molecule_MD.sh
 ```
 
 The batch script uses a 14 nm cubic box and automatically applies the appropriate index-generation scheme for parent drugs, single-prodrug systems and the mixed DTX-SI-C18/Abi-SI-C18 system.

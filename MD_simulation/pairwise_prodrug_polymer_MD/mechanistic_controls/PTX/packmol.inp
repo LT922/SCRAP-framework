@@ -1,11 +1,9 @@
-#
-# Double layered vesicle with water inside and outside
-#
+# Packmol input for a SCRAP molecular-dynamics system.
+
 
 tolerance 2.0 
 add_box_sides 2.0
-
-output pclnpt4nsptx.pdb
+output polymerdrug.pdb
 
 structure pclnpt4nscharmm.pdb
 number 1

@@ -14,13 +14,13 @@
 # otherwise -> Packmol -> ...
 # ============================================================
 
-GMX=gmx
-NTOMP=8
-ROOT="$(pwd)/pairwise_prodrug_polymer_MD"
+GMX="${GMX:-gmx}"
+NTOMP="${NTOMP:-8}"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+ROOT="$SCRIPT_DIR/pairwise_prodrug_polymer_MD"
 
 if [ ! -d "$ROOT" ]; then
     echo "ERROR: pairwise_prodrug_polymer_MD not found."
-    echo "Run this script from the copy/ directory."
     exit 1
 fi
 

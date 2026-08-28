@@ -19,7 +19,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 POST_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 REPO_ROOT="$(cd "$POST_ROOT/.." && pwd)"
 
-SEGMENT_TABLE="$POST_ROOT/segment_defination.tsv"
+SEGMENT_TABLE="$POST_ROOT/segment_definition.tsv"
 MD_ROOT="$REPO_ROOT/MD_simulation/prodrug_self_association_MD"
 OUTPUT_ROOT="$POST_ROOT/analysis_output/prodrug_self_association_MD"
 MMPBSA_INPUT="$REPO_ROOT/MD_simulation/MDP_files/mmpbsa.in"
@@ -47,7 +47,7 @@ done
 [ -f "$MMPBSA_INPUT" ] || { echo "ERROR: missing $MMPBSA_INPUT" >&2; exit 1; }
 
 
-# Read one manually verified row from segment_defination.tsv.
+# Read one manually verified row from segment_definition.tsv.
 # The second command-line argument is the value in the `mol` column.
 ROW="$(
     awk -F '\t' -v key="$MOL_KEY" '
@@ -171,7 +171,7 @@ else
         -eo Mod-Mod.csv \
         -nogui
 
-    echo "[4/5] Par-Mod"
+    echo "[4/5] Par1-Mod2"
     mpirun -np "$NPROC" gmx_MMPBSA \
         -O -i "$MMPBSA_INPUT" \
         -cs "$SYSTEM_DIR/MD.tpr" \
@@ -179,12 +179,11 @@ else
         -cg "$G_PAR1" "$G_MOD2" \
         -ct "$TRAJ" \
         -cp "$SYSTEM_DIR/topol.top" \
-        -o Par-Mod.dat \
-        -eo Par-Mod.csv \
+        -o Par1-Mod2.dat \
+        -eo Par1-Mod2.csv \
         -nogui
 
-    # Reciprocal orientation kept only as a QC check.
-    echo "[5/5] Reciprocal Par2-Mod1 QC"
+    echo "[5/5] Par2-Mod1"
     mpirun -np "$NPROC" gmx_MMPBSA \
         -O -i "$MMPBSA_INPUT" \
         -cs "$SYSTEM_DIR/MD.tpr" \
@@ -192,9 +191,36 @@ else
         -cg "$G_PAR2" "$G_MOD1" \
         -ct "$TRAJ" \
         -cp "$SYSTEM_DIR/topol.top" \
-        -o Par2-Mod1_QC.dat \
-        -eo Par2-Mod1_QC.csv \
+        -o Par2-Mod1.dat \
+        -eo Par2-Mod1.csv \
         -nogui
+
+    # SCRAP Par-Mod descriptor: arithmetic mean of the two reciprocal
+    # cross-molecule interactions, Par1-Mod2 and Par2-Mod1.
+    extract_delta_total() {
+        local file="$1"
+        awk '''$1 == "DELTA" && $2 == "TOTAL" { value=$3 }
+             END { if (value == "") exit 1; print value }''' "$file"
+    }
+
+    PAR1_MOD2="$(extract_delta_total Par1-Mod2.dat)" || {
+        echo "ERROR: could not extract DELTA TOTAL from Par1-Mod2.dat" >&2
+        exit 1
+    }
+    PAR2_MOD1="$(extract_delta_total Par2-Mod1.dat)" || {
+        echo "ERROR: could not extract DELTA TOTAL from Par2-Mod1.dat" >&2
+        exit 1
+    }
+    PAR_MOD_MEAN="$(awk -v a="$PAR1_MOD2" -v b="$PAR2_MOD1" 'BEGIN { printf "%.6f", (a+b)/2 }')"
+
+    {
+        printf "term\tDeltaG_kcal_mol-1\n"
+        printf "Par1-Mod2\t%s\n" "$PAR1_MOD2"
+        printf "Par2-Mod1\t%s\n" "$PAR2_MOD1"
+        printf "Par-Mod\t%s\n" "$PAR_MOD_MEAN"
+    } > Par-Mod_summary.tsv
+
+    echo "Par-Mod = mean(Par1-Mod2, Par2-Mod1) = $PAR_MOD_MEAN kcal/mol"
 fi
 
 echo

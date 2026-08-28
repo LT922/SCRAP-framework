@@ -50,6 +50,10 @@ Structures were drawn in **ChemDraw 22.0.0**. SMILES strings were converted to t
 
 No xTB geometry-optimization step was used for the structures in this repository.
 
+### Historical local topology provenance
+
+Each simulation directory preserves the local topology files used by that deposited system. Some self-association directories contain locally preprocessed topology files whose formatting or atom naming differs from the corresponding pairwise system. These local files are intentionally preserved rather than retrospectively replacing them with pairwise topologies, because such replacement would change the simulation input rather than merely correct repository organization.
+
 ## mPEG2k-PCL2k preparation
 
 mPEG2k-PCL2k was reconstructed from the lower-molecular-weight `EG6CL6` template using the **ztop** Python package. Details and the exact ztop commands are given in:
@@ -76,7 +80,7 @@ Original calculations were performed using:
 
 | Component | Version / specification |
 |---|---|
-| GROMACS | 2022 |
+| GROMACS | 2023 |
 | Packmol | 20.11.0 |
 | CHARMM force field | CHARMM36, July 2022 |
 | cgenff_charmm2gmx.py | 2.1.0 |
@@ -88,16 +92,12 @@ GROMACS production runs used GPU acceleration for non-bonded calculations.
 
 ## Running the simulations
 
-Run the batch scripts from the repository root:
+Run the batch scripts from the repository root (the scripts resolve their own location, so they do not depend on the current working directory):
 
 ```bash
-chmod +x run_pairwise_prodrug_polymer_MD.sh
-chmod +x run_prodrug_self_association_MD.sh
-chmod +x run_multi_molecule_MD.sh
-
-./run_pairwise_prodrug_polymer_MD.sh
-./run_prodrug_self_association_MD.sh
-./run_multi_molecule_MD.sh
+bash MD_simulation/run_pairwise_prodrug_polymer_MD.sh
+bash MD_simulation/run_prodrug_self_association_MD.sh
+bash MD_simulation/run_multi_molecule_MD.sh
 ```
 
 The scripts perform:

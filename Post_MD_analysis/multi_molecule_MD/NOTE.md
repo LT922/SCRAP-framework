@@ -74,7 +74,7 @@ The current mixed-system MD index command gives:
 20       PCL
 ```
 
-According to `segment_defination.tsv`:
+According to `segment_definition.tsv`:
 
 ```text
 dtxsic18  DTL  DTX  mod-par
@@ -103,3 +103,16 @@ drug-, DTX- and Abi-specific cluster outputs
 ```
 
 This keeps `Post_MD_analysis` consistent with the raw-file dictionaries used by the DTX/Abi coassembly R analysis.
+
+## RDF settings
+
+RDFs are calculated with molecular centres of mass for both reference and selected groups, matching the deposited SI analysis:
+
+```text
+-selrpos mol_com
+-seltype mol_com
+-pbc yes
+-bin 0.002
+```
+
+Both RDF (`-o`) and cumulative RDF (`-cn`) outputs are generated.

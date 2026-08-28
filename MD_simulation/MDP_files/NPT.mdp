@@ -7,7 +7,7 @@ nsteps                = 1000000                    ;积分过程的最大迭代�
 ;tinit                = 0                          ;运行的起始时间.只对基于时间的积分方法有意义 (ps) ;
 
 ;输出控制
-nstxout               = 0                        ;坐标输出轨迹文件的间隔步数,1ps ;
+nstxout               = 0                        ;坐标输出已关闭（nstxout = 0） ;
 nstvout               = 0                        ;速度输出轨迹文件的间隔步数 ;
 nstfout               = 0                        ;力输出轨迹文件的间隔步数 ;
 nstenergy             = 50000                      ;能量输出文件的间隔步数     ;
@@ -35,7 +35,7 @@ pbc                   = xyz                          ;在所有方向上使用�
 
 ;控温控压参数
 tcoupl                = V-rescale                       ;使用带有随机项的速度重新缩放方法进行温度耦合  ;
-tc_grps               = polymer&drug   SOL_Ion              ;独立地耦合到温度浴的组      ;
+tc_grps               = polymer&drug   SOL              ;独立地耦合到温度浴的组      ;
 ref_t                 = 300            300              ;耦合的参考温度, 即动力学模拟温度. tc_grps中的每组一个值. (K) ;
 tau_t                 = 0.2            0.2              ;耦合的时间常数. tc_grps中的每组一个值.  (ps) ;
 ;nsttcouple           =                                 ;与温度耦合的频率 ;

@@ -1,17 +1,17 @@
 ;define                  = -DFLEXIBLE                ;
-title                    = pclptx in tip3p           ;
+title                    = SCRAP production MD in TIP3P  ;
 
 ;参数控制
 integrator               = md                        ; leap-frog integrator  ;
 dt                       = 0.002                     ;积分的时间步长（ps）2fs  ;
-nsteps                   = 50000000                 ;积分过程的最大迭代次数(模拟总时间为nsteps*dt 2*100000000=200ns)  ;
+nsteps                   = 100000000                 ;积分过程的最大迭代次数(模拟总时间为nsteps*dt 2*100000000=200ns)  ;
 ;tinit                   = 0                         ;运行的起始时间.只对基于时间的积分方法有意义 (ps)  ;
 
 ;输出控制
 nstxout                  = 500000                    ;坐标输出轨迹文件的间隔步数,1000ps .trr file;
 nstvout                  = 0                         ;速度输出轨迹文件的间隔步数   .trr file;
 nstfout                  = 0                         ;力输出轨迹文件的间隔步数   .trr file;
-nstenergy                = 5000                      ;能量输出文件的间隔步数 100 ps ;
+nstenergy                = 5000                      ;能量输出文件的间隔步数 10 ps ;
 nstlog                   = 5000                      ;能量写入日志文件的间隔步数;
 nstxout-compressed       = 5000                      ;save compressed coordinates every 10.0 ps .xtc file;
 compressed-x-grps        = System                    ;replaces xtc-grps;

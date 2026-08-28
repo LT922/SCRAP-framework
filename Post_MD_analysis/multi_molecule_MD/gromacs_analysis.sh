@@ -27,7 +27,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 POST_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 REPO_ROOT="$(cd "$POST_ROOT/.." && pwd)"
 
-SEGMENT_TABLE="$POST_ROOT/segment_defination.tsv"
+SEGMENT_TABLE="$POST_ROOT/segment_definition.tsv"
 MD_ROOT="$REPO_ROOT/MD_simulation/multi_molecule_MD"
 OUTPUT_ROOT="$POST_ROOT/analysis_output/multi_molecule_MD"
 
@@ -464,6 +464,7 @@ printf "%s\n%s\n" "$G_PRO" "$G_PCL" | \
 
 # ============================================================
 # 8. RDF
+# Molecular centres of mass are used for both reference and selected groups.
 # ============================================================
 echo "[8/11] RDF"
 
@@ -473,8 +474,12 @@ echo "[8/11] RDF"
     -n "$SYSTEM_DIR/index.ndx" \
     -ref "group $G_PRO" \
     -sel "group $G_PCL" \
+    -selrpos mol_com \
+    -seltype mol_com \
+    -pbc yes \
+    -bin 0.002 \
     -o "$OUT/drugpclRDF.xvg" \
-    -dt 0.5
+    -cn "$OUT/drugpclRDFcn.xvg"
 
 "$GMX" rdf \
     -s "$SYSTEM_DIR/MD.tpr" \
@@ -482,8 +487,12 @@ echo "[8/11] RDF"
     -n "$SYSTEM_DIR/index.ndx" \
     -ref "group $G_PRO" \
     -sel "group $G_PEG" \
+    -selrpos mol_com \
+    -seltype mol_com \
+    -pbc yes \
+    -bin 0.002 \
     -o "$OUT/drugpegRDF.xvg" \
-    -dt 0.5
+    -cn "$OUT/drugpegRDFcn.xvg"
 
 "$GMX" rdf \
     -s "$SYSTEM_DIR/MD.tpr" \
@@ -491,8 +500,12 @@ echo "[8/11] RDF"
     -n "$SYSTEM_DIR/index.ndx" \
     -ref "group $G_PRO" \
     -sel "group $G_POL" \
+    -selrpos mol_com \
+    -seltype mol_com \
+    -pbc yes \
+    -bin 0.002 \
     -o "$OUT/drugpolRDF.xvg" \
-    -dt 0.5
+    -cn "$OUT/drugpolRDFcn.xvg"
 
 "$GMX" rdf \
     -s "$SYSTEM_DIR/MD.tpr" \
@@ -500,8 +513,12 @@ echo "[8/11] RDF"
     -n "$SYSTEM_DIR/index.ndx" \
     -ref "group $G_PRO" \
     -sel "group $G_PRO" \
+    -selrpos mol_com \
+    -seltype mol_com \
+    -pbc yes \
+    -bin 0.002 \
     -o "$OUT/drugsrdf_.xvg" \
-    -dt 0.5
+    -cn "$OUT/drugsrdfcn.xvg"
 
 # ============================================================
 # 9. SASA

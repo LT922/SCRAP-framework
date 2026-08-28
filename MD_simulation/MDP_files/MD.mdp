@@ -1,5 +1,5 @@
 ;define                  = -DFLEXIBLE                ;
-title                    = dspedrug in tip3p           ;
+title                    = SCRAP production MD in TIP3P  ;
 
 ;参数控制
 integrator               = md                        ; leap-frog integrator  ;
@@ -11,7 +11,7 @@ nsteps                   = 100000000                 ;积分过程的最大迭�
 nstxout                  = 500000                    ;坐标输出轨迹文件的间隔步数,1000ps .trr file;
 nstvout                  = 0                         ;速度输出轨迹文件的间隔步数   .trr file;
 nstfout                  = 0                         ;力输出轨迹文件的间隔步数   .trr file;
-nstenergy                = 5000                      ;能量输出文件的间隔步数 100 ps ;
+nstenergy                = 5000                      ;能量输出文件的间隔步数 10 ps ;
 nstlog                   = 5000                      ;能量写入日志文件的间隔步数;
 nstxout-compressed       = 5000                      ;save compressed coordinates every 10.0 ps .xtc file;
 compressed-x-grps        = System                    ;replaces xtc-grps;
@@ -37,7 +37,7 @@ pbc                   = xyz                          ;在所有方向上使用�
 
 ;控温控压参数
 tcoupl                = V-rescale                    ;使用带有随机项的速度重新缩放方法进行温度耦合  ;
-tc_grps               = polymer&drug       SOL_Ion       ;独立地耦合到温度浴的组      ;
+tc_grps               = polymer&drug       SOL       ;独立地耦合到温度浴的组      ;
 ref_t                 = 300                300       ;耦合的参考温度, 即动力学模拟温度. tc_grps中的每组一个值. (K) ;
 tau_t                 = 0.2                0.2       ;耦合的时间常数. tc_grps中的每组一个值.  (ps) ;
 ;nsttcouple           =                              ;与温度耦合的频率 ;

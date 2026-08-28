@@ -25,7 +25,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 POST_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 REPO_ROOT="$(cd "$POST_ROOT/.." && pwd)"
 
-SEGMENT_TABLE="$POST_ROOT/segment_defination.tsv"
+SEGMENT_TABLE="$POST_ROOT/segment_definition.tsv"
 OUTPUT_ROOT="$POST_ROOT/analysis_output/multi_molecule_MD"
 
 SYSTEM_DIR="$(cd "$1" && pwd)"
@@ -552,36 +552,44 @@ printf "%s\n%s\n" "$G_ABI_PAR" "$G_PCL" | \
 
 # ============================================================
 # 10. RDF
+# Molecular centres of mass are used for both reference and selected groups.
 # ============================================================
 echo "[10/13] RDF"
 
 "$GMX" rdf -s "$SYSTEM_DIR/MD.tpr" -f "$TRAJ" -n "$SYSTEM_DIR/index.ndx" \
     -ref "group $G_DTX_PRO" -sel "group $G_PCL" \
-    -o "$OUT/rdf-dtx-pcl.xvg" -dt 0.5
+    -selrpos mol_com -seltype mol_com -pbc yes -bin 0.002 \
+    -o "$OUT/rdf-dtx-pcl.xvg" -cn "$OUT/rdf-dtx-pcl-cn.xvg"
 
 "$GMX" rdf -s "$SYSTEM_DIR/MD.tpr" -f "$TRAJ" -n "$SYSTEM_DIR/index.ndx" \
     -ref "group $G_ABI_PRO" -sel "group $G_PCL" \
-    -o "$OUT/rdf-abi-pcl.xvg" -dt 0.5
+    -selrpos mol_com -seltype mol_com -pbc yes -bin 0.002 \
+    -o "$OUT/rdf-abi-pcl.xvg" -cn "$OUT/rdf-abi-pcl-cn.xvg"
 
 "$GMX" rdf -s "$SYSTEM_DIR/MD.tpr" -f "$TRAJ" -n "$SYSTEM_DIR/index.ndx" \
     -ref "group $G_DTX_PRO" -sel "group $G_PEG" \
-    -o "$OUT/rdf-dtx-peg.xvg" -dt 0.5
+    -selrpos mol_com -seltype mol_com -pbc yes -bin 0.002 \
+    -o "$OUT/rdf-dtx-peg.xvg" -cn "$OUT/rdf-dtx-peg-cn.xvg"
 
 "$GMX" rdf -s "$SYSTEM_DIR/MD.tpr" -f "$TRAJ" -n "$SYSTEM_DIR/index.ndx" \
     -ref "group $G_ABI_PRO" -sel "group $G_PEG" \
-    -o "$OUT/rdf-abi-peg.xvg" -dt 0.5
+    -selrpos mol_com -seltype mol_com -pbc yes -bin 0.002 \
+    -o "$OUT/rdf-abi-peg.xvg" -cn "$OUT/rdf-abi-peg-cn.xvg"
 
 "$GMX" rdf -s "$SYSTEM_DIR/MD.tpr" -f "$TRAJ" -n "$SYSTEM_DIR/index.ndx" \
     -ref "group $G_DTX_PRO" -sel "group $G_ABI_PRO" \
-    -o "$OUT/rdf-dtx-abi.xvg" -dt 0.5
+    -selrpos mol_com -seltype mol_com -pbc yes -bin 0.002 \
+    -o "$OUT/rdf-dtx-abi.xvg" -cn "$OUT/rdf-dtx-abi-cn.xvg"
 
 "$GMX" rdf -s "$SYSTEM_DIR/MD.tpr" -f "$TRAJ" -n "$SYSTEM_DIR/index.ndx" \
     -ref "group $G_PRO" -sel "group $G_PCL" \
-    -o "$OUT/rdf-drug-pcl.xvg" -dt 0.5
+    -selrpos mol_com -seltype mol_com -pbc yes -bin 0.002 \
+    -o "$OUT/rdf-drug-pcl.xvg" -cn "$OUT/rdf-drug-pcl-cn.xvg"
 
 "$GMX" rdf -s "$SYSTEM_DIR/MD.tpr" -f "$TRAJ" -n "$SYSTEM_DIR/index.ndx" \
     -ref "group $G_PRO" -sel "group $G_PEG" \
-    -o "$OUT/rdf-drug-peg.xvg" -dt 0.5
+    -selrpos mol_com -seltype mol_com -pbc yes -bin 0.002 \
+    -o "$OUT/rdf-drug-peg.xvg" -cn "$OUT/rdf-drug-peg-cn.xvg"
 
 # ============================================================
 # 11. SASA

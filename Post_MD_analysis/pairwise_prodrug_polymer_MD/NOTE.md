@@ -9,7 +9,7 @@ Corresponding simulations:
 └── validation/
 ```
 
-Run one system at a time and explicitly provide its `mol` key from `../segment_defination.tsv`.
+Run one system at a time and explicitly provide its `mol` key from `../segment_definition.tsv`.
 
 P2-C18 example:
 

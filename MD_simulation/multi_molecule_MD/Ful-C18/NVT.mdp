@@ -11,12 +11,12 @@ nsteps                = 500000                       ;积分过程的步数(模�
 nstxout               = 0                            ;坐标输出轨迹文件的间隔步数
 nstvout               = 0                            ;速度输出轨迹文件的间隔步数
 nstfout               = 0                            ;力输出轨迹文件的间隔步数
-nstenergy             = 5000                        ;能量输出文件的间隔步数 100 fs 可以设置大一些，否则占磁盘空间大
-nstlog                = 5000                        ;能量写入日志文件的间隔步数 100 fs 可以设置大一些，否则占磁盘空间大
+nstenergy             = 5000                        ;能量输出文件的间隔步数 100 ps
+nstlog                = 5000                        ;能量写入日志文件的间隔步数 100 ps
 
 ;临近列表参数
 cutoff_scheme         = Verlet                       ;生成带有缓冲的配对列表
-nstlist               = 10                           ;更新临近列表的频率10fs
+nstlist               = 10                           ;更新临近列表的频率20fs
 ns_type               = grid                         ;通过在盒子中生成格点构建每步的邻区列表
 rlist                 = 1.0                          ;短程力临近列表的截断值 (nm). 使用cutoff_scheme=Verlet截断方案时忽略rlist截断值
 

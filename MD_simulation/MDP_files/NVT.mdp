@@ -11,12 +11,12 @@ nsteps                = 500000                       ;积分过程的步数(模�
 nstxout               = 0                            ;坐标输出轨迹文件的间隔步数
 nstvout               = 0                            ;速度输出轨迹文件的间隔步数
 nstfout               = 0                            ;力输出轨迹文件的间隔步数
-nstenergy             = 50000                        ;能量输出文件的间隔步数 100 fs 可以设置大一些，否则占磁盘空间大
-nstlog                = 50000                        ;能量写入日志文件的间隔步数 100 fs 可以设置大一些，否则占磁盘空间大
+nstenergy             = 50000                        ;能量输出文件的间隔步数 100 ps
+nstlog                = 50000                        ;能量写入日志文件的间隔步数 100 ps
 
 ;临近列表参数
 cutoff_scheme         = Verlet                       ;生成带有缓冲的配对列表
-nstlist               = 10                           ;更新临近列表的频率10fs
+nstlist               = 10                           ;更新临近列表的频率20fs
 ns_type               = grid                         ;通过在盒子中生成格点构建每步的邻区列表
 rlist                 = 1.0                          ;短程力临近列表的截断值 (nm). 使用cutoff_scheme=Verlet截断方案时忽略rlist截断值
 
@@ -34,7 +34,7 @@ pbc                   = xyz                          ;在每个方向上使用�
 
 ;控温控压参数
 tcoupl                = V-rescale                    ;使用带有随机项的速度重新缩放方法进行温度耦合
-tc_grps               = polymer&drug    SOL_Ion          ;控温组，如果蛋白等大分子，可能溶剂和溶质温度变化不统一;独立地耦合到温度浴的组
+tc_grps               = polymer&drug    SOL          ;控温组，如果蛋白等大分子，可能溶剂和溶质温度变化不统一;独立地耦合到温度浴的组
 ref_t                 = 300             300          ;耦合的参考温度,即动力学模拟温度. tc_grps中的每组一个值. (K)
 tau_t                 = 0.2             0.2          ;耦合的时间常数. tc_grps中的每组一个值.  (ps)
 ;nsttcouple           =                              ;与温度耦合的频率

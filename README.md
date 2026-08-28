@@ -8,7 +8,7 @@ This repository contains the computational workflow and analysis code for the se
 .
 ├── MD_simulation/
 ├── Post_MD_analysis/
-└── SCRAP_Data_with_R_Ploted_Codes/
+└── SCRAP_Data_and_R_Code/
 ```
 
 ### 1. `MD_simulation/`
@@ -37,9 +37,9 @@ Post_MD_analysis/
 
 GROMACS scripts are provided for structural analyses, and `gmx_MMPBSA` scripts are provided for the segment-resolved interaction-energy calculations used in SCRAP.
 
-`segment_defination.tsv` contains the manually verified assignment of prodrug residues to the parent-drug (**Par**) and modifier/linker (**Mod**) segments. Large regenerated trajectories and intermediate analysis files are written to `analysis_output/` and are not intended for version control.
+`segment_definition.tsv` contains the manually verified assignment of prodrug residues to the parent-drug (**Par**) and modifier/linker (**Mod**) segments. Large regenerated trajectories and intermediate analysis files are written to `analysis_output/` and are not intended for version control.
 
-### 3. `SCRAP_Data_with_R_Ploted_Codes/`
+### 3. `SCRAP_Data_and_R_Code/`
 
 Contains the compact datasets and R scripts used for SCRAP scoring, validation, statistical analysis and figure generation.
 

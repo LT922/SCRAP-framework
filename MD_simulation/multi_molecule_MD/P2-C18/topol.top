@@ -6,9 +6,6 @@
 #include "mpeg2kpcl2k.itp"
 #include "ptx2c18.itp"
 
-#ifdef POSRES_POLYMER
-#include "posre_polymer.itp"
-#endif
 
 
 #include "../../forcefields/charmm36-jul2022.ff/tip3p.itp"

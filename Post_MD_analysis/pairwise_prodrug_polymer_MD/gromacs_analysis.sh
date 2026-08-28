@@ -22,7 +22,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 POST_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 REPO_ROOT="$(cd "$POST_ROOT/.." && pwd)"
 
-SEGMENT_TABLE="$POST_ROOT/segment_defination.tsv"
+SEGMENT_TABLE="$POST_ROOT/segment_definition.tsv"
 MD_ROOT="$REPO_ROOT/MD_simulation/pairwise_prodrug_polymer_MD"
 OUTPUT_ROOT="$POST_ROOT/analysis_output/pairwise_prodrug_polymer_MD"
 
@@ -50,7 +50,7 @@ for FILE in MD.tpr MD.xtc index.ndx; do
 done
 
 
-# Read one manually verified row from segment_defination.tsv.
+# Read one manually verified row from segment_definition.tsv.
 # The second command-line argument is the value in the `mol` column.
 ROW="$(
     awk -F '\t' -v key="$MOL_KEY" '

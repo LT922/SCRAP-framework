@@ -1,28 +1,25 @@
 #include "../forcefields/charmm36-jul2022.ff/forcefield.itp"
 
-#include "mpeg2kpdlla2k.prm"
-#include "p2c6.prm"
+#include "../pairwise_prodrug_polymer_MD/training/P2-C18/mpeg2kpcl2k.prm"
+#include "../pairwise_prodrug_polymer_MD/training/P2-C18/ptx2c18.prm"
 
-#include "mpeg2kpdlla2k.itp"
-#include "p2c6.itp"
+#include "../pairwise_prodrug_polymer_MD/training/P2-C18/mpeg2kpcl2k.itp"
+#include "../pairwise_prodrug_polymer_MD/training/P2-C18/ptx2c18.itp"
 
 #include "../forcefields/charmm36-jul2022.ff/tip3p.itp"
 #ifdef POSRES_WATER
-; Position restraint for each water oxygen
 [ position_restraints ]
-;  i funct		 fcx		fcy		   fcz
-   1	1		1000	   1000		  1000
+;  i funct   fcx   fcy   fcz
+   1   1     1000  1000  1000
 #endif
 
-; Include topology for ions
+; Include ion topology only if ions are added to a specific system.
 ;#include "../forcefields/charmm36-jul2022.ff/ions.itp"
 
 [ system ]
-; Name
-pdllap2c6 in water
+P2-C18 + mPEG2k-PCL2k in water
 
 [ molecules ]
-;Compound        #mols
-PDLLA             1
-PTX               1
-
+; Compound   #mols
+ECL          1
+PTX          1

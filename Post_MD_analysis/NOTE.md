@@ -5,7 +5,7 @@ This directory contains the post-processing workflow corresponding directly to t
 ```text
 Post_MD_analysis/
 ├── NOTE.md
-├── segment_defination.tsv
+├── segment_definition.tsv
 ├── pairwise_prodrug_polymer_MD/
 │   ├── NOTE.md
 │   ├── gromacs_analysis.sh
@@ -22,7 +22,7 @@ Post_MD_analysis/
     └── NOTE.md
 ```
 
-The scripts do **not** read the small-molecule ITP files. The manually verified `segment_defination.tsv` is the only source used to decide whether residue1/residue2 are Par or Mod.
+The scripts do **not** read the small-molecule ITP files. The manually verified `segment_definition.tsv` is the only source used to decide whether residue1/residue2 are Par or Mod.
 
 ## Segment definitions
 
@@ -41,7 +41,7 @@ For each analysis, the user supplies:
 
 ```text
 1. the MD system directory
-2. the `mol` key from segment_defination.tsv
+2. the `mol` key from segment_definition.tsv
 ```
 
 Example:
@@ -106,6 +106,8 @@ Self-association MD provides four cohesion terms:
 Pro-Pro   Par-Par   Mod-Mod   Par-Mod
 ```
 
+For prodrugs, `Par-Mod` is defined as the arithmetic mean of the reciprocal cross-molecule interactions `Par1-Mod2` and `Par2-Mod1`.
+
 Together these are the 13 SCRAP descriptors.
 
 Multi-molecule MD is used for assembly-level structural analysis and mechanistic support rather than for generating the 13-term score.
@@ -124,7 +126,7 @@ These outputs can be regenerated from local MD trajectories and are not intended
 
 The scripts correspond to:
 
-- GROMACS 2022
+- GROMACS 2023
 - gmx_MMPBSA 1.6.4
 - MPI-enabled gmx_MMPBSA
 
